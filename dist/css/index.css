@@ -1,0 +1,93 @@
+@charset "UTF-8";
+input[type="text"],
+select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+select::-webkit-input-placeholder {
+  color: #999;
+  font-size: inherit;
+}
+
+input[type="text"]:-moz-placeholder,
+select:-moz-placeholder {
+  color: #999;
+  font-size: inherit;
+}
+
+input[type="text"]::-moz-placeholder,
+select::-moz-placeholder {
+  color: #999;
+  font-size: inherit;
+}
+
+input[type="text"]:-ms-input-placeholder,
+select:-ms-input-placeholder {
+  color: #999;
+  font-size: inherit;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+input, textarea, select {
+  background-color: transparent;
+  font-family: '微软雅黑';
+}
+
+select {
+  border: none;
+  text-indent: 1em;
+}
+
+option {
+  text-indent: 1em;
+  font-family: '微软雅黑';
+}
+
+input[type='text'], select {
+  border: none;
+  text-indent: 1em;
+}
+
+.wrap {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.yjs-head {
+  height: 100px;
+}
+
+.yjs-head .head-l {
+  float: left;
+}
+
+.yjs-head .head-l .logo {
+  margin-top: 15px;
+  float: left;
+}
+
+.yjs-head .head-l h1 {
+  font-size: 20px;
+  color: #333333;
+  float: left;
+  line-height: 42px;
+  padding-left: 14px;
+  border-left: 1px solid #eeeeee;
+  margin-left: 14px;
+  margin-top: 29px;
+}
+
+.yjs-head .head-r {
+  width: 601px;
+  height: 100px;
+  float: right;
+}
