@@ -82,7 +82,7 @@ input[type='text'], select {
   text-indent: 1em;
 }
 
-html, body, div, p, a, ul, li, span, form, input {
+html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   box-sizing: border-box;
 }
 
@@ -237,6 +237,7 @@ body {
   }
 }
 
+/* 导航 */
 .yjs-nav {
   width: 100%;
   height: 50px;
@@ -285,35 +286,151 @@ body {
   }
 }
 
-.yjs-banner {
+/* 全国/国际 */
+.yjs-types {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  .content {
+    padding-top: 18px;
+    .type-item {
+      @extend %in-b;
+      line-height: 15px;
+      padding-right: 25px;
+      border-right: 1px solid #dddddd;
+      margin-right: 25px;
+      &.cur {
+        color: $bg-color;
+      }
+      &:before {
+        @extend %in-b;
+        vertical-align: middle;
+        content: "";
+        width: 19px;
+        height: 15px;
+        background: url('../images/css_sprites.png') -250px -255px;
+        margin-right: 10px;
+      }
+      &:nth-of-type(2) {
+        &:before {
+          width: 16px;
+          height: 16px;
+          background: url('../images/css_sprites.png') -83px -295px;
+        }
+      }
+    }
+    .type-detail {
+      display: none;
+      &.cur{
+        @extend %in-b;
+      }
+      .detail-title {
+        &:before {
+          @extend %in-b;
+          vertical-align: middle;
+          content: "";
+          width: 17px;
+          height: 17px;
+          background: url('../images/css_sprites.png') -10px -295px;
+          margin-right: 10px;
+        }
+      }
+      ul {
+        @extend %in-b;
+        li {
+          a {
+            padding: 0 10px;
+          }
+        }
+      }
+    }
+  }
 }
 
-/* 唐雪 - 标题*/
-.tx-title {
-  height: 80px;
-  h2 {
-    display: inline-block;
-    line-height: 80px;
+
+/* 标题模板 */
+.title-module { // tx-title
+  //padding-top: 20px;
+  margin-bottom: 20px;
+  @extend %clearfix;
+  .title-l {
     float: left;
-    font-size: 24px;
+    position: relative;
+    span {
+      @extend %in-b;
+      font-size: 24px;
+      color: #333333;
+      font-weight: bold;
+      &.top {
+        position: absolute;
+        top: -10px;
+        left: 105px;
+        width: 44px;
+        height: 22px;
+        line-height: 22px;
+        text-align: center;
+        background-image: linear-gradient(0deg,
+            #1782e6 0%,
+            #1ca7ff 100%),
+        linear-gradient(
+                #1782e6,
+                #1782e6);
+        background-blend-mode: normal,
+        normal;
+        box-shadow: 0px 5px 10px 0px rgba(18, 90, 157, 0.15);
+        border-radius: 11px 11px 11px 0px;
+        font-size: 13px;
+        color: #ffffff;
+      }
+    }
+  }
+  h2, h3, h4{
+    float: left;
+    @extend %in-b;
+    line-height: 26px;
     color: #333333;
     font-weight: bold;
   }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4{
+    font-size: 18px;
+  }
   a {
     float: right;
-    display: inline-block;
-    line-height: 80px;
+    @extend %in-b;
     font-size: 13px;
+    line-height: 26px;
     color: #999999;
     &:hover {
       color: $bg-color;
     }
+    &.bd {
+      border: 1px solid #eeeeee;
+      border-radius: 2px;
+      padding: 0 7px;
+      &:hover{
+        border: 1px solid $bg-color;
+      }
+    }
+  }
+
+  .time {
+    float: right;
+    font-size: 13px;
+    line-height: 13px;
+    color: #999999;
   }
 }
 
 /* 1.全国首页-热门招生简章 */
 .tx-module1 {
-  //margin-top: 10px;
+  margin-bottom: 20px;
   .tx-recruitBox {
     background-color: #fff;
     padding: 0 20px;
@@ -479,7 +596,7 @@ body {
 }
 
 .tx-module2 {
-  //margin-top: 10px;
+  margin-bottom: 20px;
   .injobMaster {
     background-color: #fff;
     padding: 20px 20px 0;
@@ -519,8 +636,7 @@ body {
           }
         }
         .academy-box {
-          padding: 20px 0;
-
+          padding: 20px 0 0;
           .school-speciality {
             width: 90px;
             float: left;
@@ -578,6 +694,7 @@ body {
               float: left;
               width: 120px;
               margin-right: 20px;
+              margin-bottom: 10px;
               @extend %one;
               background: url(../images/tx2-listicon1.png) no-repeat left center;
               padding-left: 15px;
@@ -685,6 +802,7 @@ body {
 .tx-module3 {
   background-color: #fff;
   padding: 20px;
+  margin-bottom: 20px;
   .txPulicRight {
     .minTag {
       font-size: 0;
@@ -1059,64 +1177,6 @@ body {
   }
 }
 
-/* 全国/国际 */
-.yjs-types {
-  width: 100%;
-  height: 50px;
-  background-color: #ffffff;
-  .content {
-    padding-top: 18px;
-    .type-item {
-      @extend %in-b;
-      line-height: 15px;
-      padding-right: 25px;
-      border-right: 1px solid #dddddd;
-      margin-right: 25px;
-      &.cur {
-        color: $bg-color;
-      }
-      &:before {
-        @extend %in-b;
-        vertical-align: middle;
-        content: "";
-        width: 19px;
-        height: 15px;
-        background: url('../images/css_sprites.png') -250px -255px;
-        margin-right: 10px;
-      }
-      &:nth-of-type(2) {
-        &:before {
-          width: 16px;
-          height: 16px;
-          background: url('../images/css_sprites.png') -83px -295px;
-        }
-      }
-    }
-    .type-detail {
-      @extend %in-b;
-      .detail-title {
-        &:before {
-          @extend %in-b;
-          vertical-align: middle;
-          content: "";
-          width: 17px;
-          height: 17px;
-          background: url('../images/css_sprites.png') -10px -295px;
-          margin-right: 10px;
-        }
-      }
-      ul {
-        @extend %in-b;
-        li {
-          a {
-            padding: 0 10px;
-          }
-        }
-      }
-    }
-  }
-}
-
 %flex {
   display: flex;
   align-items: center;
@@ -1142,6 +1202,7 @@ body {
           font-size: 16px;
           padding-bottom: 16px;
           display: inline-block;
+          font-weight: bold;
           &:after {
             content: "";
             bottom: -1px;
@@ -1193,7 +1254,7 @@ body {
 
 /* 7.学员问答（国际国内省份首页） */
 .q-2 {
-  //margin-top: 40px;
+  margin-bottom: 20px;
   .c {
     background: #fff;
     padding: 20px;
@@ -1652,7 +1713,6 @@ body {
   background: url(../images/yz.png) no-repeat center;
   width: 300px;
   height: 395px;
-  //float: right;
   text-align: center;
   h4 {
     font-size: 20px;
@@ -1670,7 +1730,6 @@ body {
     width: 260px;
     height: 46px;
     background-color: #ffffff;
-    padding-left: 14px;
     border: none;
     margin-bottom: 15px;
   }
@@ -1700,12 +1759,11 @@ body {
   //float: right;
   margin-bottom: 20px;
   .c {
-    h2 {
+    h3 {
       font-size: 20px;
       color: #333333;
-      font-size: 20px;
-      margin: 0;
-      display: inline-block;
+      @extend %in-b;
+      font-weight: bold;
     }
     .txt {
       display: inline-block;
@@ -1746,6 +1804,7 @@ body {
         margin-bottom: 12px;
         display: inline-block;
         a {
+          @extend %in-b;
           p {
             font-size: 14px;
             color: #333;
@@ -1763,16 +1822,23 @@ body {
             font-size: 12px;
             float: right;
           }
+          &:hover{
+            p{
+              color: $bg-color;
+            }
+          }
         }
         &:after {
           content: "";
-          bottom: 10px;
-          left: 0;
           border-radius: 50%;
-          position: absolute;
           width: 5px;
           height: 5px;
-          background: #1782e6
+          background: #1782e6;
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
         }
       }
     }
@@ -1783,25 +1849,7 @@ body {
   background: #fff;
   padding: 20px;
   width: 300px;
-  //float: right;
   margin-bottom: 20px;
-  .top {
-    h4 {
-      float: left;
-      font-size: 20px;
-      font-weight: bold;
-    }
-    a {
-      width: 54px;
-      height: 22px;
-      float: right;
-      text-align: center;
-      border-radius: 2px;
-      border: solid 1px #dddddd;
-      color: #b2b2b2;
-      font-size: 13px;
-    }
-  }
   .list {
     margin-top: 20px;
     li {
@@ -1843,25 +1891,7 @@ body {
   background: #fff;
   padding: 20px;
   width: 300px;
-  //float: right;
   margin-bottom: 20px;
-  .top {
-    h4 {
-      float: left;
-      font-size: 20px;
-      font-weight: bold;
-    }
-    a {
-      width: 54px;
-      height: 22px;
-      float: right;
-      text-align: center;
-      border-radius: 2px;
-      border: solid 1px #dddddd;
-      color: #b2b2b2;
-      font-size: 13px;
-    }
-  }
   .list {
     margin-top: 16px;
     li {
@@ -1888,13 +1918,7 @@ body {
   background: #fff;
   padding: 20px;
   width: 300px;
-  //float: right;
   margin-bottom: 20px;
-  h4 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
   .list {
     li {
       margin-bottom: 10px;
@@ -1907,10 +1931,9 @@ body {
   margin-bottom: 20px;
   .title-module {
     margin-top: 64px;
-    margin-bottom: 24px;
+    //margin-bottom: 24px;
   }
   .content {
-    //height: 286px;
     background-color: #ffffff;
     //border: 1px solid red;
     padding: 20px 0;
@@ -1925,9 +1948,16 @@ body {
         color: #333333;
         cursor: pointer;
         padding: 0 7px 18px;
+
         &.cur {
           color: $bg-color;
           border-bottom: 3px solid $bg-color;
+          font-weight: bold;
+        }
+        &:hover{
+          color: $bg-color;
+          border-bottom: 3px solid $bg-color;
+          font-weight: bold;
         }
       }
     }
@@ -2004,57 +2034,6 @@ body {
   }
 }
 
-/* 标题模板 */
-.title-module {
-  @extend %clearfix;
-  .title-l {
-    float: left;
-    position: relative;
-    span {
-      @extend %in-b;
-      font-size: 24px;
-      color: #333333;
-      font-weight: bold;
-      &.top {
-        position: absolute;
-        top: -10px;
-        left: 105px;
-        width: 44px;
-        height: 22px;
-        line-height: 22px;
-        text-align: center;
-        background-image: linear-gradient(0deg,
-            #1782e6 0%,
-            #1ca7ff 100%),
-        linear-gradient(
-                #1782e6,
-                #1782e6);
-        background-blend-mode: normal,
-        normal;
-        box-shadow: 0px 5px 10px 0px rgba(18, 90, 157, 0.15);
-        border-radius: 11px 11px 11px 0px;
-        font-size: 13px;
-        color: #ffffff;
-      }
-    }
-  }
-  .more {
-    float: right;
-    font-size: 13px;
-    line-height: 13px;
-    color: #999999;
-    &:hover {
-      color: $bg-color;
-    }
-  }
-  .time {
-    float: right;
-    font-size: 13px;
-    line-height: 13px;
-    color: #999999;
-  }
-}
-
 /* 友情链接 */
 .yjs-link {
   margin-bottom: 20px;
@@ -2077,6 +2056,12 @@ body {
         &.cur {
           color: $bg-color;
           border-bottom: 3px solid $bg-color;
+          font-weight: bold;
+        }
+        &:hover{
+          color: $bg-color;
+          border-bottom: 3px solid $bg-color;
+          font-weight: bold;
         }
       }
     }
@@ -2376,7 +2361,7 @@ body {
         width: 348px;
         float: left;
         li {
-          padding-top: 10px;
+          padding-top: 14px;
           a {
             @extend %point-a;
             span {
@@ -2386,6 +2371,56 @@ body {
         }
         &:nth-of-type(odd) {
           margin-right: 42px;
+        }
+      }
+    }
+    .jz-item{
+      @extend %clearfix;
+      p{
+        text-indent: 2em;
+      }
+      div{
+        line-height: 1.8;
+      }
+      img{
+        padding-top: 20px;
+        margin-bottom: 20px;
+      }
+      .paging {
+        width: 363px;
+        float: left;
+        padding-top: 20px;
+        a {
+          @extend %in-b;
+          @extend %one;
+          color: #8a9299;
+          &:hover {
+            color: $bg-color;
+          }
+        }
+      }
+      .paging-r {
+        float: right;
+        padding-top: 20px;
+        .paging-r-logo {
+          float: left;
+          width: 174px;
+          height: 56px;
+          border: solid 1px #eeeeee;
+          background: url("../images/renmingdaxue.png") no-repeat center #ffffff;
+          margin-right: 10px;
+        }
+        .paging-r-btn {
+          float: right;
+          width: 144px;
+          height: 56px;
+          border-radius: 2px;
+          color: #ffffff;
+          font-size: 16px;
+          background: url("../images/jz-icon_1.png") no-repeat #1782e6 16%;
+          text-align: center;
+          line-height: 56px;
+          text-indent: 1em;
         }
       }
     }
@@ -2834,6 +2869,54 @@ body {
       }
     }
   }
+  /* 咨询终端 */
+  .zxzd-title{
+    text-align: center;
+    font-size: 26px;
+    line-height: 28px;
+    color: #333333;
+    margin-bottom: 16px;
+  }
+  .text-msg {
+    font-size: 14px;
+    line-height: 14px;
+    color: #8a9299;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+    .source {
+      vertical-align: middle;
+      margin-right: 20px;
+      i {
+        @extend %in-b;
+        vertical-align: middle;
+        width: 14px;
+        height: 12px;
+        background: url('../images/css_sprites.png') -364px -213px;
+      }
+    }
+    .author {
+      vertical-align: middle;
+      margin-right: 20px;
+      i {
+        @extend %in-b;
+        vertical-align: middle;
+        width: 14px;
+        height: 16px;
+        background: url('../images/css_sprites.png') -191px -295px;
+      }
+    }
+    .time {
+      vertical-align: middle;
+      i {
+        @extend %in-b;
+        vertical-align: middle;
+        width: 14px;
+        height: 14px;
+        background: url('../images/css_sprites.png') -364px -10px;
+      }
+    }
+  }
 }
 
 .yxzd-r {
@@ -3076,6 +3159,175 @@ body {
         p {
           color: #1782e6;
         }
+      }
+    }
+  }
+}
+
+/* 右侧悬浮 */
+.right-nav {
+  z-index: 99;
+  width: 70px;
+  border-bottom: none;
+  position: fixed;
+  right: 40px;
+  top: 30%;
+  .online {
+    width: 70px;
+    height: 70px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 14px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    background-color: $bg-color;
+    color: #ffffff;
+    i{
+      @extend %in-b;
+      width: 21px;
+      height: 22px;
+      background: url("../images/icon_6.png") no-repeat;
+    }
+  }
+  ul {
+    li {
+      position: relative;
+      width: 70px;
+      height: 70px;
+      background-color: #ffffff;
+      margin-bottom: 2px;
+      a {
+        display: block;
+        height: 70px;
+        text-align: center;
+        line-height: 20px;
+        color: #666666;
+        padding-top: 14px;
+        span{
+          @extend %in-b;
+        }
+        .tel{
+          @extend %in-b;
+          width: 20px;
+          height: 20px;
+          background: url("../images/icon_7.png") no-repeat;
+        }
+        .qq{
+          @extend %in-b;
+          width: 18px;
+          height: 20px;
+          background: url("../images/icon_8.png") no-repeat;
+        }
+        .server{
+          @extend %in-b;
+          width: 22px;
+          height: 16px;
+          background: url("../images/icon_9.png") no-repeat;
+        }
+        .to-top{
+          @extend %in-b;
+          width: 18px;
+          height: 11px;
+          background: url("../images/icon_10.png") no-repeat;
+        }
+
+        &:hover{
+          background-color: $bg-color;
+          color: #ffffff;
+          .tel{
+            background: url("../images/icon_12.png") no-repeat;
+          }
+          .qq{
+            background: url("../images/icon_13.png") no-repeat;
+          }
+          .server{
+            background: url("../images/icon_14.png") no-repeat;
+          }
+        }
+      }
+      &:last-child{
+        a{
+          &:hover{
+            background-color: #ffffff;
+            color: #666666;
+          }
+        }
+
+      }
+      .hide-content{
+        display: none;
+        width: 260px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 0;
+        right: 74px;
+        border-left: 3px solid $bg-color;
+        .hide-title{
+          font-size: 16px;
+          color: $bg-color;
+          text-align: center;
+          font-weight: bold;
+        }
+        .hot-line{
+          padding-top: 14px;
+          & + p{
+            padding-bottom: 14px;
+          }
+        }
+        .hide-qq{
+          line-height: 70px;
+        }
+        p{
+          font-size: 13px;
+          color: #777777;
+          text-align: center;
+          i{
+            @extend %in-b;
+            vertical-align: middle;
+            width: 14px;
+            height: 14px;
+            background: url('../images/css_sprites.png') -364px -10px;
+          }
+        }
+        .sign-in{
+          width: 260px;
+          height: 286px;
+          background-color: #ffffff;
+          padding: 20px;
+          .sign-in-title{
+            font-size: 18px;
+            line-height: 20px;
+            font-weight: bold;
+            color: #333333;
+            text-align: center;
+            padding: 0 36px;
+            margin-bottom: 10px;
+          }
+          input{
+            width: 220px;
+            height: 40px;
+            line-height: 40px;
+            background-color: #f5f7fa;
+            border: solid 1px #eeeeee;
+            margin-bottom: 10px;
+          }
+          input[type="submit"]{
+            background-color: $bg-color;
+            border: solid 1px $bg-color;
+            color: #ffffff;
+          }
+        }
+      }
+      &:hover{
+        .hide-content{
+          display: block;
+        }
+      }
+      .hide-form{
+        top: -215px;
+        border-left: 0;
+        //border: 1px solid red;
       }
     }
   }

@@ -89,32 +89,32 @@ select {
   text-indent: 1em;
 }
 
-html, body, div, p, a, ul, li, span, form, input {
+html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-.tx-module1 .tx-recruitBox .recruitCon ul li a p, .txPulicList1 ul li a p, .tx-module2 .injobMaster .master-right .master-top .academy-box ul li, .tx-module2 .injobMaster .master-right .questionMsg-box .questionMsg ul li a, .tx-module3 .txPulicRight .newslist ul li a, .q-1 .c .l .list li a p, .q-2 .c .l .list2 li a p, .q-2 .c .r .list li p, .q-3 .c .l .tlist li .top h4 a, .q-3 .c .l .list2 li a p, .q-3 .c .r .list2 li a p, .q-4 .c .bottom .list li a p, .q-6 .c .list li a p, .q-8 .list li, .yxzd-l .yxzd-l-wdzd .paging a, .yxzd-l .brochures .jz-item .paging a, .yxzd-r .hot-search ul li a, .yx-wd ul li a p {
+.tx-module1 .tx-recruitBox .recruitCon ul li a p, .txPulicList1 ul li a p, .tx-module2 .injobMaster .master-right .master-top .academy-box ul li, .tx-module2 .injobMaster .master-right .questionMsg-box .questionMsg ul li a, .tx-module3 .txPulicRight .newslist ul li a, .q-1 .c .l .list li a p, .q-2 .c .l .list2 li a p, .q-2 .c .r .list li p, .q-3 .c .l .tlist li .top h4 a, .q-3 .c .l .list2 li a p, .q-3 .c .r .list2 li a p, .q-4 .c .bottom .list li a p, .q-6 .c .list li a p, .q-8 .list li, .yxzd-l .yxzd-l-wd .jz-item .paging a, .yxzd-l .yxzd-l-wdzd .paging a, .yxzd-l .brochures .jz-item .paging a, .yxzd-r .hot-search ul li a, .yx-wd ul li a p {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 
-.yxzd-l .yxzd-l-wd .wd-list ul li a:before, .yxzd-l .others-schools .others-l .others-l-item ul li a:before, .yjs-head .head-l .logo, .yjs-head .head-l .logo:after, .yjs-head .head-l h1, .yjs-head .head-r .r-search, .yjs-head .head-r .r-tel, .yjs-head .head-r .r-tel span, .tx-module2 .injobMaster .master-right .master-top .academy-box .school-speciality span, .yjs-types .content .type-item, .yjs-types .content .type-item:before, .yjs-types .content .type-detail, .yjs-types .content .type-detail .detail-title:before, .yjs-types .content .type-detail ul, .yjs-recommend .content .tab-head span, .yjs-recommend .content .tab-item ul li img, .yjs-recommend .content .tab-item ul li .text, .yjs-recommend .content .tab-item ul li .emphasis span, .title-module .title-l span, .yjs-link .content .tab-head span, .yxzd-topbar .content .topbar-nav ul li a i, .yxzd-topbar .content .cities-nav ul li a i, .yxzd-banner .yxzd-logo, .yxzd-banner .nav-menu, .yxzd-banner .nav-menu li, .yxzd-l .yxzd-l-wd .wd-good i, .yxzd-l .yxzd-l-wdzd .wd-good .icon, .yxzd-l .yxzd-l-wdzd .wd-good .icon-d, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .source i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .author i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .time i, .yxzd-l .yxzd-l-wdzd .paging a, .yxzd-l .msg-classify .msg-types .item .types-r a, .yxzd-l .msg-classify .msg-types .item .types-r a i, .yxzd-l .msg-classify .msg-types .item .types-r span, .yxzd-l .brochures .jz-item .paging a, .yxzd-l .others-schools .others-r .r-enter .enter-btn, .yxzd-r .hot-search ul li a, .academy .academy-types .studying-types .types-r a, .academy .academy-types .studying-types .types-r span, .academy .academy-tab .school-speciality span, .academy .academy-tab .school-operation a {
+.yxzd-l .yxzd-l-wd .wd-list ul li a:before, .yxzd-l .others-schools .others-l .others-l-item ul li a:before, .yjs-head .head-l .logo, .yjs-head .head-l .logo:after, .yjs-head .head-l h1, .yjs-head .head-r .r-search, .yjs-head .head-r .r-tel, .yjs-head .head-r .r-tel span, .yjs-types .content .type-item, .yjs-types .content .type-item:before, .yjs-types .content .type-detail.cur, .yjs-types .content .type-detail .detail-title:before, .yjs-types .content .type-detail ul, .title-module .title-l span, .title-module h2, .title-module h3, .title-module h4, .title-module a, .tx-module2 .injobMaster .master-right .master-top .academy-box .school-speciality span, .q-6 .c h3, .q-6 .c .list li a, .yjs-recommend .content .tab-head span, .yjs-recommend .content .tab-item ul li img, .yjs-recommend .content .tab-item ul li .text, .yjs-recommend .content .tab-item ul li .emphasis span, .yjs-link .content .tab-head span, .yxzd-topbar .content .topbar-nav ul li a i, .yxzd-topbar .content .cities-nav ul li a i, .yxzd-banner .yxzd-logo, .yxzd-banner .nav-menu, .yxzd-banner .nav-menu li, .yxzd-l .yxzd-l-wd .wd-good i, .yxzd-l .yxzd-l-wd .jz-item .paging a, .yxzd-l .yxzd-l-wdzd .wd-good .icon, .yxzd-l .yxzd-l-wdzd .wd-good .icon-d, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .source i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .author i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .time i, .yxzd-l .yxzd-l-wdzd .paging a, .yxzd-l .msg-classify .msg-types .item .types-r a, .yxzd-l .msg-classify .msg-types .item .types-r a i, .yxzd-l .msg-classify .msg-types .item .types-r span, .yxzd-l .brochures .jz-item .paging a, .yxzd-l .others-schools .others-r .r-enter .enter-btn, .yxzd-l .text-msg .source i, .yxzd-l .text-msg .author i, .yxzd-l .text-msg .time i, .yxzd-r .hot-search ul li a, .academy .academy-types .studying-types .types-r a, .academy .academy-types .studying-types .types-r span, .academy .academy-tab .school-speciality span, .academy .academy-tab .school-operation a, .right-nav .online i, .right-nav ul li a span, .right-nav ul li a .tel, .right-nav ul li a .qq, .right-nav ul li a .server, .right-nav ul li a .to-top, .right-nav ul li .hide-content p i {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
 
-.tx-module2 .injobMaster .master-right .master-top .academy-box ul, .yjs-recommend .content .tab-item ul, .title-module, .yjs-link .content .tab-item, .yxzd-topbar .content .topbar-nav ul, .yxzd-topbar .content .cities-nav ul, .yxzd-l .yxzd-l-wd .wd-good, .yxzd-l .yxzd-l-wd .wd-list, .yxzd-l .yxzd-l-wdzd .wd-good, .yxzd-l .yxzd-l-wdzd .paging, .yxzd-l .msg-classify .msg-types .item, .yxzd-l .brochures .jz-item, .yxzd-l .brochures .jz-item .course .course-row, .yxzd-l .others-schools, .yxzd-l .others-schools .others-l .others-l-item, .yxzd-r .hot-search ul, .academy .academy-types .studying-types, .academy .academy-tab .tab-head, .academy .academy-tab .tab-item {
+.title-module, .tx-module2 .injobMaster .master-right .master-top .academy-box ul, .yjs-recommend .content .tab-item ul, .yjs-link .content .tab-item, .yxzd-topbar .content .topbar-nav ul, .yxzd-topbar .content .cities-nav ul, .yxzd-l .yxzd-l-wd .wd-good, .yxzd-l .yxzd-l-wd .wd-list, .yxzd-l .yxzd-l-wd .jz-item, .yxzd-l .yxzd-l-wdzd .wd-good, .yxzd-l .yxzd-l-wdzd .paging, .yxzd-l .msg-classify .msg-types .item, .yxzd-l .brochures .jz-item, .yxzd-l .brochures .jz-item .course .course-row, .yxzd-l .others-schools, .yxzd-l .others-schools .others-l .others-l-item, .yxzd-r .hot-search ul, .academy .academy-types .studying-types, .academy .academy-tab .tab-head, .academy .academy-tab .tab-item {
   zoom: 1;
 }
 
-.tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .yjs-recommend .content .tab-item ul:after, .title-module:after, .yjs-link .content .tab-item:after, .yxzd-topbar .content .topbar-nav ul:after, .yxzd-topbar .content .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .tab-item:after {
+.title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .yjs-recommend .content .tab-item ul:after, .yjs-link .content .tab-item:after, .yxzd-topbar .content .topbar-nav ul:after, .yxzd-topbar .content .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .tab-item:after {
   clear: both;
 }
 
-.tx-module2 .injobMaster .master-right .master-top .academy-box ul:before, .yjs-recommend .content .tab-item ul:before, .title-module:before, .yjs-link .content .tab-item:before, .yxzd-topbar .content .topbar-nav ul:before, .yxzd-topbar .content .cities-nav ul:before, .yxzd-l .yxzd-l-wd .wd-good:before, .yxzd-l .yxzd-l-wd .wd-list:before, .yxzd-l .yxzd-l-wdzd .wd-good:before, .yxzd-l .yxzd-l-wdzd .paging:before, .yxzd-l .msg-classify .msg-types .item:before, .yxzd-l .brochures .jz-item:before, .yxzd-l .brochures .jz-item .course .course-row:before, .yxzd-l .others-schools:before, .yxzd-l .others-schools .others-l .others-l-item:before, .yxzd-r .hot-search ul:before, .academy .academy-types .studying-types:before, .academy .academy-tab .tab-head:before, .academy .academy-tab .tab-item:before, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .yjs-recommend .content .tab-item ul:after, .title-module:after, .yjs-link .content .tab-item:after, .yxzd-topbar .content .topbar-nav ul:after, .yxzd-topbar .content .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .tab-item:after {
+.title-module:before, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:before, .yjs-recommend .content .tab-item ul:before, .yjs-link .content .tab-item:before, .yxzd-topbar .content .topbar-nav ul:before, .yxzd-topbar .content .cities-nav ul:before, .yxzd-l .yxzd-l-wd .wd-good:before, .yxzd-l .yxzd-l-wd .wd-list:before, .yxzd-l .yxzd-l-wd .jz-item:before, .yxzd-l .yxzd-l-wdzd .wd-good:before, .yxzd-l .yxzd-l-wdzd .paging:before, .yxzd-l .msg-classify .msg-types .item:before, .yxzd-l .brochures .jz-item:before, .yxzd-l .brochures .jz-item .course .course-row:before, .yxzd-l .others-schools:before, .yxzd-l .others-schools .others-l .others-l-item:before, .yxzd-r .hot-search ul:before, .academy .academy-types .studying-types:before, .academy .academy-tab .tab-head:before, .academy .academy-tab .tab-item:before, .title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .yjs-recommend .content .tab-item ul:after, .yjs-link .content .tab-item:after, .yxzd-topbar .content .topbar-nav ul:after, .yxzd-topbar .content .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .tab-item:after {
   content: "";
   display: table;
 }
@@ -249,6 +249,7 @@ body {
   text-align: center;
 }
 
+/* 导航 */
 .yjs-nav {
   width: 100%;
   height: 50px;
@@ -298,33 +299,147 @@ body {
   display: block;
 }
 
-/* 唐雪 - 标题*/
-.tx-title {
-  height: 80px;
+/* 全国/国际 */
+.yjs-types {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
 }
 
-.tx-title h2 {
-  display: inline-block;
-  line-height: 80px;
+.yjs-types .content {
+  padding-top: 18px;
+}
+
+.yjs-types .content .type-item {
+  line-height: 15px;
+  padding-right: 25px;
+  border-right: 1px solid #dddddd;
+  margin-right: 25px;
+}
+
+.yjs-types .content .type-item.cur {
+  color: #1782e6;
+}
+
+.yjs-types .content .type-item:before {
+  vertical-align: middle;
+  content: "";
+  width: 19px;
+  height: 15px;
+  background: url("../images/css_sprites.png") -250px -255px;
+  margin-right: 10px;
+}
+
+.yjs-types .content .type-item:nth-of-type(2):before {
+  width: 16px;
+  height: 16px;
+  background: url("../images/css_sprites.png") -83px -295px;
+}
+
+.yjs-types .content .type-detail {
+  display: none;
+}
+
+.yjs-types .content .type-detail .detail-title:before {
+  vertical-align: middle;
+  content: "";
+  width: 17px;
+  height: 17px;
+  background: url("../images/css_sprites.png") -10px -295px;
+  margin-right: 10px;
+}
+
+.yjs-types .content .type-detail ul li a {
+  padding: 0 10px;
+}
+
+/* 标题模板 */
+.title-module {
+  margin-bottom: 20px;
+}
+
+.title-module .title-l {
   float: left;
+  position: relative;
+}
+
+.title-module .title-l span {
   font-size: 24px;
   color: #333333;
   font-weight: bold;
 }
 
-.tx-title a {
-  float: right;
-  display: inline-block;
-  line-height: 80px;
+.title-module .title-l span.top {
+  position: absolute;
+  top: -10px;
+  left: 105px;
+  width: 44px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#1782e6), to(#1ca7ff)), -webkit-gradient(linear, left top, left bottom, from(#1782e6), to(#1782e6));
+  background-image: linear-gradient(0deg, #1782e6 0%, #1ca7ff 100%), linear-gradient(#1782e6, #1782e6);
+  background-blend-mode: normal, normal;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(18, 90, 157, 0.15);
+          box-shadow: 0px 5px 10px 0px rgba(18, 90, 157, 0.15);
+  border-radius: 11px 11px 11px 0px;
   font-size: 13px;
+  color: #ffffff;
+}
+
+.title-module h2, .title-module h3, .title-module h4 {
+  float: left;
+  line-height: 26px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.title-module h2 {
+  font-size: 24px;
+}
+
+.title-module h3 {
+  font-size: 20px;
+}
+
+.title-module h4 {
+  font-size: 18px;
+}
+
+.title-module a {
+  float: right;
+  font-size: 13px;
+  line-height: 26px;
   color: #999999;
 }
 
-.tx-title a:hover {
+.title-module a:hover {
   color: #1782e6;
 }
 
+.title-module a.bd {
+  border: 1px solid #eeeeee;
+  border-radius: 2px;
+  padding: 0 7px;
+}
+
+.title-module a.bd:hover {
+  border: 1px solid #1782e6;
+}
+
+.title-module .time {
+  float: right;
+  font-size: 13px;
+  line-height: 13px;
+  color: #999999;
+}
+
 /* 1.全国首页-热门招生简章 */
+.tx-module1 {
+  margin-bottom: 20px;
+}
+
 .tx-module1 .tx-recruitBox {
   background-color: #fff;
   padding: 0 20px;
@@ -500,6 +615,10 @@ body {
   border-color: #1782e6;
 }
 
+.tx-module2 {
+  margin-bottom: 20px;
+}
+
 .tx-module2 .injobMaster {
   background-color: #fff;
   padding: 20px 20px 0;
@@ -545,7 +664,7 @@ body {
 }
 
 .tx-module2 .injobMaster .master-right .master-top .academy-box {
-  padding: 20px 0;
+  padding: 20px 0 0;
 }
 
 .tx-module2 .injobMaster .master-right .master-top .academy-box .school-speciality {
@@ -600,6 +719,7 @@ body {
   float: left;
   width: 120px;
   margin-right: 20px;
+  margin-bottom: 10px;
   background: url(../images/tx2-listicon1.png) no-repeat left center;
   padding-left: 15px;
   line-height: 2;
@@ -709,6 +829,7 @@ body {
 .tx-module3 {
   background-color: #fff;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .tx-module3 .txPulicRight .minTag {
@@ -1136,56 +1257,6 @@ body {
   max-width: 170px;
 }
 
-/* 全国/国际 */
-.yjs-types {
-  width: 100%;
-  height: 50px;
-  background-color: #ffffff;
-}
-
-.yjs-types .content {
-  padding-top: 18px;
-}
-
-.yjs-types .content .type-item {
-  line-height: 15px;
-  padding-right: 25px;
-  border-right: 1px solid #dddddd;
-  margin-right: 25px;
-}
-
-.yjs-types .content .type-item.cur {
-  color: #1782e6;
-}
-
-.yjs-types .content .type-item:before {
-  vertical-align: middle;
-  content: "";
-  width: 19px;
-  height: 15px;
-  background: url("../images/css_sprites.png") -250px -255px;
-  margin-right: 10px;
-}
-
-.yjs-types .content .type-item:nth-of-type(2):before {
-  width: 16px;
-  height: 16px;
-  background: url("../images/css_sprites.png") -83px -295px;
-}
-
-.yjs-types .content .type-detail .detail-title:before {
-  vertical-align: middle;
-  content: "";
-  width: 17px;
-  height: 17px;
-  background: url("../images/css_sprites.png") -10px -295px;
-  margin-right: 10px;
-}
-
-.yjs-types .content .type-detail ul li a {
-  padding: 0 10px;
-}
-
 .q-1 .c, .q-4 .c .bottom .list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1221,6 +1292,7 @@ body {
   font-size: 16px;
   padding-bottom: 16px;
   display: inline-block;
+  font-weight: bold;
 }
 
 .q-1 .c .l .title h4:after {
@@ -1269,6 +1341,10 @@ body {
 }
 
 /* 7.学员问答（国际国内省份首页） */
+.q-2 {
+  margin-bottom: 20px;
+}
+
 .q-2 .c {
   background: #fff;
   padding: 20px;
@@ -1777,7 +1853,6 @@ body {
   width: 260px;
   height: 46px;
   background-color: #ffffff;
-  padding-left: 14px;
   border: none;
   margin-bottom: 15px;
 }
@@ -1810,12 +1885,10 @@ body {
   margin-bottom: 20px;
 }
 
-.q-6 .c h2 {
+.q-6 .c h3 {
   font-size: 20px;
   color: #333333;
-  font-size: 20px;
-  margin: 0;
-  display: inline-block;
+  font-weight: bold;
 }
 
 .q-6 .c .txt {
@@ -1883,15 +1956,21 @@ body {
   float: right;
 }
 
+.q-6 .c .list li a:hover p {
+  color: #1782e6;
+}
+
 .q-6 .c .list li:after {
   content: "";
-  bottom: 10px;
-  left: 0;
   border-radius: 50%;
-  position: absolute;
   width: 5px;
   height: 5px;
   background: #1782e6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 /* 19.简章排行（院校终端-首页） */
@@ -1900,23 +1979,6 @@ body {
   padding: 20px;
   width: 300px;
   margin-bottom: 20px;
-}
-
-.q-7 .top h4 {
-  float: left;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.q-7 .top a {
-  width: 54px;
-  height: 22px;
-  float: right;
-  text-align: center;
-  border-radius: 2px;
-  border: solid 1px #dddddd;
-  color: #b2b2b2;
-  font-size: 13px;
 }
 
 .q-7 .list {
@@ -1970,23 +2032,6 @@ body {
   margin-bottom: 20px;
 }
 
-.q-8 .top h4 {
-  float: left;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.q-8 .top a {
-  width: 54px;
-  height: 22px;
-  float: right;
-  text-align: center;
-  border-radius: 2px;
-  border: solid 1px #dddddd;
-  color: #b2b2b2;
-  font-size: 13px;
-}
-
 .q-8 .list {
   margin-top: 16px;
 }
@@ -2016,12 +2061,6 @@ body {
   margin-bottom: 20px;
 }
 
-.q-9 h4 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
 .q-9 .list li {
   margin-bottom: 10px;
 }
@@ -2033,7 +2072,6 @@ body {
 
 .yjs-recommend .title-module {
   margin-top: 64px;
-  margin-bottom: 24px;
 }
 
 .yjs-recommend .content {
@@ -2057,6 +2095,13 @@ body {
 .yjs-recommend .content .tab-head span.cur {
   color: #1782e6;
   border-bottom: 3px solid #1782e6;
+  font-weight: bold;
+}
+
+.yjs-recommend .content .tab-head span:hover {
+  color: #1782e6;
+  border-bottom: 3px solid #1782e6;
+  font-weight: bold;
 }
 
 .yjs-recommend .content .tab-item ul li {
@@ -2115,54 +2160,6 @@ body {
           box-shadow: 0px 5px 10px 0px rgba(26, 169, 216, 0.15);
 }
 
-/* 标题模板 */
-.title-module .title-l {
-  float: left;
-  position: relative;
-}
-
-.title-module .title-l span {
-  font-size: 24px;
-  color: #333333;
-  font-weight: bold;
-}
-
-.title-module .title-l span.top {
-  position: absolute;
-  top: -10px;
-  left: 105px;
-  width: 44px;
-  height: 22px;
-  line-height: 22px;
-  text-align: center;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#1782e6), to(#1ca7ff)), -webkit-gradient(linear, left top, left bottom, from(#1782e6), to(#1782e6));
-  background-image: linear-gradient(0deg, #1782e6 0%, #1ca7ff 100%), linear-gradient(#1782e6, #1782e6);
-  background-blend-mode: normal, normal;
-  -webkit-box-shadow: 0px 5px 10px 0px rgba(18, 90, 157, 0.15);
-          box-shadow: 0px 5px 10px 0px rgba(18, 90, 157, 0.15);
-  border-radius: 11px 11px 11px 0px;
-  font-size: 13px;
-  color: #ffffff;
-}
-
-.title-module .more {
-  float: right;
-  font-size: 13px;
-  line-height: 13px;
-  color: #999999;
-}
-
-.title-module .more:hover {
-  color: #1782e6;
-}
-
-.title-module .time {
-  float: right;
-  font-size: 13px;
-  line-height: 13px;
-  color: #999999;
-}
-
 /* 友情链接 */
 .yjs-link {
   margin-bottom: 20px;
@@ -2190,6 +2187,13 @@ body {
 .yjs-link .content .tab-head span.cur {
   color: #1782e6;
   border-bottom: 3px solid #1782e6;
+  font-weight: bold;
+}
+
+.yjs-link .content .tab-head span:hover {
+  color: #1782e6;
+  border-bottom: 3px solid #1782e6;
+  font-weight: bold;
 }
 
 .yjs-link .content .tab-item {
@@ -2450,6 +2454,7 @@ body {
   /* 信息分类 问答 */
   /* 招生简章 */
   /* 其他院校 */
+  /* 咨询终端 */
 }
 
 .yxzd-l .yxzd-l-wd {
@@ -2516,7 +2521,7 @@ body {
 }
 
 .yxzd-l .yxzd-l-wd .wd-list ul li {
-  padding-top: 10px;
+  padding-top: 14px;
 }
 
 .yxzd-l .yxzd-l-wd .wd-list ul li a span {
@@ -2525,6 +2530,60 @@ body {
 
 .yxzd-l .yxzd-l-wd .wd-list ul:nth-of-type(odd) {
   margin-right: 42px;
+}
+
+.yxzd-l .yxzd-l-wd .jz-item p {
+  text-indent: 2em;
+}
+
+.yxzd-l .yxzd-l-wd .jz-item div {
+  line-height: 1.8;
+}
+
+.yxzd-l .yxzd-l-wd .jz-item img {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.yxzd-l .yxzd-l-wd .jz-item .paging {
+  width: 363px;
+  float: left;
+  padding-top: 20px;
+}
+
+.yxzd-l .yxzd-l-wd .jz-item .paging a {
+  color: #8a9299;
+}
+
+.yxzd-l .yxzd-l-wd .jz-item .paging a:hover {
+  color: #1782e6;
+}
+
+.yxzd-l .yxzd-l-wd .jz-item .paging-r {
+  float: right;
+  padding-top: 20px;
+}
+
+.yxzd-l .yxzd-l-wd .jz-item .paging-r .paging-r-logo {
+  float: left;
+  width: 174px;
+  height: 56px;
+  border: solid 1px #eeeeee;
+  background: url("../images/renmingdaxue.png") no-repeat center #ffffff;
+  margin-right: 10px;
+}
+
+.yxzd-l .yxzd-l-wd .jz-item .paging-r .paging-r-btn {
+  float: right;
+  width: 144px;
+  height: 56px;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 16px;
+  background: url("../images/jz-icon_1.png") no-repeat #1782e6 16%;
+  text-align: center;
+  line-height: 56px;
+  text-indent: 1em;
 }
 
 .yxzd-l .yxzd-l-wdzd {
@@ -2988,6 +3047,58 @@ body {
   background-color: #22cbb8;
 }
 
+.yxzd-l .zxzd-title {
+  text-align: center;
+  font-size: 26px;
+  line-height: 28px;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+.yxzd-l .text-msg {
+  font-size: 14px;
+  line-height: 14px;
+  color: #8a9299;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.yxzd-l .text-msg .source {
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.yxzd-l .text-msg .source i {
+  vertical-align: middle;
+  width: 14px;
+  height: 12px;
+  background: url("../images/css_sprites.png") -364px -213px;
+}
+
+.yxzd-l .text-msg .author {
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.yxzd-l .text-msg .author i {
+  vertical-align: middle;
+  width: 14px;
+  height: 16px;
+  background: url("../images/css_sprites.png") -191px -295px;
+}
+
+.yxzd-l .text-msg .time {
+  vertical-align: middle;
+}
+
+.yxzd-l .text-msg .time i {
+  vertical-align: middle;
+  width: 14px;
+  height: 14px;
+  background: url("../images/css_sprites.png") -364px -10px;
+}
+
 .yxzd-r {
   float: right;
   width: 300px;
@@ -3250,4 +3361,179 @@ body {
 
 .yx-wd ul li:hover p {
   color: #1782e6;
+}
+
+/* 右侧悬浮 */
+.right-nav {
+  z-index: 99;
+  width: 70px;
+  border-bottom: none;
+  position: fixed;
+  right: 40px;
+  top: 30%;
+}
+
+.right-nav .online {
+  width: 70px;
+  height: 70px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 14px;
+  cursor: pointer;
+  margin-bottom: 2px;
+  background-color: #1782e6;
+  color: #ffffff;
+}
+
+.right-nav .online i {
+  width: 21px;
+  height: 22px;
+  background: url("../images/icon_6.png") no-repeat;
+}
+
+.right-nav ul li {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background-color: #ffffff;
+  margin-bottom: 2px;
+}
+
+.right-nav ul li a {
+  display: block;
+  height: 70px;
+  text-align: center;
+  line-height: 20px;
+  color: #666666;
+  padding-top: 14px;
+}
+
+.right-nav ul li a .tel {
+  width: 20px;
+  height: 20px;
+  background: url("../images/icon_7.png") no-repeat;
+}
+
+.right-nav ul li a .qq {
+  width: 18px;
+  height: 20px;
+  background: url("../images/icon_8.png") no-repeat;
+}
+
+.right-nav ul li a .server {
+  width: 22px;
+  height: 16px;
+  background: url("../images/icon_9.png") no-repeat;
+}
+
+.right-nav ul li a .to-top {
+  width: 18px;
+  height: 11px;
+  background: url("../images/icon_10.png") no-repeat;
+}
+
+.right-nav ul li a:hover {
+  background-color: #1782e6;
+  color: #ffffff;
+}
+
+.right-nav ul li a:hover .tel {
+  background: url("../images/icon_12.png") no-repeat;
+}
+
+.right-nav ul li a:hover .qq {
+  background: url("../images/icon_13.png") no-repeat;
+}
+
+.right-nav ul li a:hover .server {
+  background: url("../images/icon_14.png") no-repeat;
+}
+
+.right-nav ul li:last-child a:hover {
+  background-color: #ffffff;
+  color: #666666;
+}
+
+.right-nav ul li .hide-content {
+  display: none;
+  width: 260px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 74px;
+  border-left: 3px solid #1782e6;
+}
+
+.right-nav ul li .hide-content .hide-title {
+  font-size: 16px;
+  color: #1782e6;
+  text-align: center;
+  font-weight: bold;
+}
+
+.right-nav ul li .hide-content .hot-line {
+  padding-top: 14px;
+}
+
+.right-nav ul li .hide-content .hot-line + p {
+  padding-bottom: 14px;
+}
+
+.right-nav ul li .hide-content .hide-qq {
+  line-height: 70px;
+}
+
+.right-nav ul li .hide-content p {
+  font-size: 13px;
+  color: #777777;
+  text-align: center;
+}
+
+.right-nav ul li .hide-content p i {
+  vertical-align: middle;
+  width: 14px;
+  height: 14px;
+  background: url("../images/css_sprites.png") -364px -10px;
+}
+
+.right-nav ul li .hide-content .sign-in {
+  width: 260px;
+  height: 286px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.right-nav ul li .hide-content .sign-in .sign-in-title {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  padding: 0 36px;
+  margin-bottom: 10px;
+}
+
+.right-nav ul li .hide-content .sign-in input {
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f5f7fa;
+  border: solid 1px #eeeeee;
+  margin-bottom: 10px;
+}
+
+.right-nav ul li .hide-content .sign-in input[type="submit"] {
+  background-color: #1782e6;
+  border: solid 1px #1782e6;
+  color: #ffffff;
+}
+
+.right-nav ul li:hover .hide-content {
+  display: block;
+}
+
+.right-nav ul li .hide-form {
+  top: -215px;
+  border-left: 0;
 }
