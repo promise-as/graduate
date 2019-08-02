@@ -100,21 +100,21 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   overflow: hidden;
 }
 
-.yxzd-l .yxzd-l-wd .wd-list ul li a:before, .yxzd-l .others-schools .others-l .others-l-item ul li a:before, .yjs-head .head-l .logo, .yjs-head .head-l .logo:after, .yjs-head .head-l h1, .yjs-head .head-r .r-search, .yjs-head .head-r .r-tel, .yjs-head .head-r .r-tel span, .yjs-types .content .type-item, .yjs-types .content .type-item:before, .yjs-types .content .type-detail.cur, .yjs-types .content .type-detail .detail-title:before, .yjs-types .content .type-detail ul, .title-module .title-l span, .title-module h2, .title-module h3, .title-module h4, .title-module a, .tx-module2 .injobMaster .master-right .master-top .academy-box .school-speciality span, .q-6 .c h3, .q-6 .c .list li a, .yjs-recommend .content .tab-head span, .yjs-recommend .content .tab-item ul li img, .yjs-recommend .content .tab-item ul li .text, .yjs-recommend .content .tab-item ul li .emphasis span, .yjs-link .content .tab-head span, .yxzd-topbar .content .topbar-nav ul li a i, .yxzd-topbar .content .cities-nav ul li a i, .yxzd-banner .yxzd-logo, .yxzd-banner .nav-menu, .yxzd-banner .nav-menu li, .yxzd-l .yxzd-l-wd .wd-good i, .yxzd-l .yxzd-l-wd .jz-item .paging a, .yxzd-l .yxzd-l-wdzd .wd-good .icon, .yxzd-l .yxzd-l-wdzd .wd-good .icon-d, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .source i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .author i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .time i, .yxzd-l .yxzd-l-wdzd .paging a, .yxzd-l .msg-classify .msg-types .item .types-r a, .yxzd-l .msg-classify .msg-types .item .types-r a i, .yxzd-l .msg-classify .msg-types .item .types-r span, .yxzd-l .brochures .jz-item .paging a, .yxzd-l .others-schools .others-r .r-enter .enter-btn, .yxzd-l .text-msg .source i, .yxzd-l .text-msg .author i, .yxzd-l .text-msg .time i, .yxzd-r .hot-search ul li a, .academy .academy-types .studying-types .types-r a, .academy .academy-types .studying-types .types-r span, .academy .academy-tab .school-speciality span, .academy .academy-tab .school-operation a, .right-nav .online i, .right-nav ul li a span, .right-nav ul li a .tel, .right-nav ul li a .qq, .right-nav ul li a .server, .right-nav ul li a .to-top, .right-nav ul li .hide-content p i {
+.yxzd-l .yxzd-l-wd .wd-list ul li a:before, .yxzd-l .others-schools .others-l .others-l-item ul li a:before, .yjs-head .head-l .logo, .yjs-head .head-l .logo:after, .yjs-head .head-l h1, .yjs-head .head-r .r-search, .yjs-head .head-r .r-tel, .yjs-head .head-r .r-tel span, .yjs-types .content .type-item, .yjs-types .content .type-item:before, .yjs-types .content .type-detail.cur, .yjs-types .content .type-detail .detail-title:before, .yjs-types .content .type-detail ul, .title-module .title-l span, .title-module h2, .title-module h3, .title-module h4, .title-module a, .tx-module1 .tx-recruitBox .recruitCon ul li a span, .txPulicList1 ul li a span, .tx-module2 .injobMaster .master-right .master-top .academy-box .school-speciality span, .q-4 .c .top .box .t1 h4, .q-4 .c .bottom .txt h4, .q-6 .c h3, .q-6 .c .list li a, .yjs-recommend .recommend .tab-head span, .yjs-recommend .recommend .tab-item ul li a, .yjs-recommend .recommend .tab-item ul li img, .yjs-recommend .recommend .tab-item ul li .text, .yjs-recommend .recommend .tab-item ul li .emphasis span, .yjs-link .tab-head span, .yxzd-topbar .content .topbar-nav ul li a i, .yxzd-topbar .content .cities-nav ul li a i, .yxzd-banner .yxzd-logo, .yxzd-banner .nav-menu, .yxzd-banner .nav-menu li, .yxzd-l .yxzd-l-wd .wd-good i, .yxzd-l .yxzd-l-wd .jz-item .paging a, .yxzd-l .yxzd-l-wdzd .wd-good .icon, .yxzd-l .yxzd-l-wdzd .wd-good .icon-d, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .source i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .author i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .time i, .yxzd-l .yxzd-l-wdzd .paging a, .yxzd-l .msg-classify .msg-types .item .types-r a, .yxzd-l .msg-classify .msg-types .item .types-r a i, .yxzd-l .msg-classify .msg-types .item .types-r span, .yxzd-l .brochures .jz-item .paging a, .yxzd-l .others-schools .others-r .r-enter .enter-btn, .yxzd-l .text-msg .source i, .yxzd-l .text-msg .author i, .yxzd-l .text-msg .time i, .yxzd-r .hot-search ul li a, .academy .academy-types .studying-types .types-r a, .academy .academy-types .studying-types .types-r span, .academy .academy-tab .school-speciality span, .academy .academy-tab .school-operation a, .right-nav .online i, .right-nav ul li a span, .right-nav ul li a .tel, .right-nav ul li a .qq, .right-nav ul li a .server, .right-nav ul li a .to-top, .right-nav ul li .hide-content p i {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
 
-.title-module, .tx-module2 .injobMaster .master-right .master-top .academy-box ul, .yjs-recommend .content .tab-item ul, .yjs-link .content .tab-item, .yxzd-topbar .content .topbar-nav ul, .yxzd-topbar .content .cities-nav ul, .yxzd-l .yxzd-l-wd .wd-good, .yxzd-l .yxzd-l-wd .wd-list, .yxzd-l .yxzd-l-wd .jz-item, .yxzd-l .yxzd-l-wdzd .wd-good, .yxzd-l .yxzd-l-wdzd .paging, .yxzd-l .msg-classify .msg-types .item, .yxzd-l .brochures .jz-item, .yxzd-l .brochures .jz-item .course .course-row, .yxzd-l .others-schools, .yxzd-l .others-schools .others-l .others-l-item, .yxzd-r .hot-search ul, .academy .academy-types .studying-types, .academy .academy-tab .tab-head, .academy .academy-tab .tab-item {
+.title-module, .tx-module2 .injobMaster .master-right .master-top .academy-box ul, .yjs-recommend .recommend .tab-item ul, .yjs-link .tab-item, .yxzd-topbar .content .topbar-nav ul, .yxzd-topbar .content .cities-nav ul, .yxzd-l .yxzd-l-wd .wd-good, .yxzd-l .yxzd-l-wd .wd-list, .yxzd-l .yxzd-l-wd .jz-item, .yxzd-l .yxzd-l-wdzd .wd-good, .yxzd-l .yxzd-l-wdzd .paging, .yxzd-l .msg-classify .msg-types .item, .yxzd-l .brochures .jz-item, .yxzd-l .brochures .jz-item .course .course-row, .yxzd-l .others-schools, .yxzd-l .others-schools .others-l .others-l-item, .yxzd-r .hot-search ul, .academy .academy-types .studying-types, .academy .academy-tab .tab-head, .academy .academy-tab .tab-item {
   zoom: 1;
 }
 
-.title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .yjs-recommend .content .tab-item ul:after, .yjs-link .content .tab-item:after, .yxzd-topbar .content .topbar-nav ul:after, .yxzd-topbar .content .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .tab-item:after {
+.title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .yjs-recommend .recommend .tab-item ul:after, .yjs-link .tab-item:after, .yxzd-topbar .content .topbar-nav ul:after, .yxzd-topbar .content .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .tab-item:after {
   clear: both;
 }
 
-.title-module:before, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:before, .yjs-recommend .content .tab-item ul:before, .yjs-link .content .tab-item:before, .yxzd-topbar .content .topbar-nav ul:before, .yxzd-topbar .content .cities-nav ul:before, .yxzd-l .yxzd-l-wd .wd-good:before, .yxzd-l .yxzd-l-wd .wd-list:before, .yxzd-l .yxzd-l-wd .jz-item:before, .yxzd-l .yxzd-l-wdzd .wd-good:before, .yxzd-l .yxzd-l-wdzd .paging:before, .yxzd-l .msg-classify .msg-types .item:before, .yxzd-l .brochures .jz-item:before, .yxzd-l .brochures .jz-item .course .course-row:before, .yxzd-l .others-schools:before, .yxzd-l .others-schools .others-l .others-l-item:before, .yxzd-r .hot-search ul:before, .academy .academy-types .studying-types:before, .academy .academy-tab .tab-head:before, .academy .academy-tab .tab-item:before, .title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .yjs-recommend .content .tab-item ul:after, .yjs-link .content .tab-item:after, .yxzd-topbar .content .topbar-nav ul:after, .yxzd-topbar .content .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .tab-item:after {
+.title-module:before, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:before, .yjs-recommend .recommend .tab-item ul:before, .yjs-link .tab-item:before, .yxzd-topbar .content .topbar-nav ul:before, .yxzd-topbar .content .cities-nav ul:before, .yxzd-l .yxzd-l-wd .wd-good:before, .yxzd-l .yxzd-l-wd .wd-list:before, .yxzd-l .yxzd-l-wd .jz-item:before, .yxzd-l .yxzd-l-wdzd .wd-good:before, .yxzd-l .yxzd-l-wdzd .paging:before, .yxzd-l .msg-classify .msg-types .item:before, .yxzd-l .brochures .jz-item:before, .yxzd-l .brochures .jz-item .course .course-row:before, .yxzd-l .others-schools:before, .yxzd-l .others-schools .others-l .others-l-item:before, .yxzd-r .hot-search ul:before, .academy .academy-types .studying-types:before, .academy .academy-tab .tab-head:before, .academy .academy-tab .tab-item:before, .title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .yjs-recommend .recommend .tab-item ul:after, .yjs-link .tab-item:after, .yxzd-topbar .content .topbar-nav ul:after, .yxzd-topbar .content .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .tab-item:after {
   content: "";
   display: table;
 }
@@ -199,9 +199,7 @@ body {
   background: url("../images/css_sprites.png") -47px -295px;
   position: absolute;
   left: 13px;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  top: 13px;
 }
 
 .yjs-head .head-r .r-search input {
@@ -474,6 +472,7 @@ body {
 .tx-module1 .tx-recruitBox .recruitCon ul {
   margin-right: -20px;
   display: none;
+  padding-top: 10px;
 }
 
 .tx-module1 .tx-recruitBox .recruitCon ul:first-child {
@@ -482,9 +481,10 @@ body {
 
 .tx-module1 .tx-recruitBox .recruitCon ul li {
   float: left;
-  width: 196px;
-  margin-right: 20px;
-  margin-top: 20px;
+  width: 212px;
+  padding-top: 8px;
+  text-align: center;
+  border: 1px solid transparent;
 }
 
 .tx-module1 .tx-recruitBox .recruitCon ul li a {
@@ -492,10 +492,9 @@ body {
 }
 
 .tx-module1 .tx-recruitBox .recruitCon ul li a span {
-  display: block;
-  width: 196px;
+  width: 212px;
   height: 135px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .tx-module1 .tx-recruitBox .recruitCon ul li a span img {
@@ -506,11 +505,21 @@ body {
 .tx-module1 .tx-recruitBox .recruitCon ul li a p {
   font-size: 14px;
   color: #333333;
-  max-width: 196px;
+  max-width: 212px;
+  text-align: left;
+  padding-left: 8px;
+}
+
+.tx-module1 .tx-recruitBox .recruitCon ul li:hover {
+  border: 1px solid #eeeeee;
 }
 
 .tx-module1 .tx-recruitBox .recruitCon ul li:hover p {
   color: #1782e6;
+}
+
+.tx-module1 .tx-recruitBox .recruitCon ul li:nth-child(n+11):hover {
+  border: 1px solid transparent;
 }
 
 /* 2.全国首页-在职硕士 */
@@ -540,6 +549,7 @@ body {
 .txPulicList1 ul {
   margin-right: -20px;
   display: none;
+  padding-top: 12px;
 }
 
 .txPulicList1 ul:first-child {
@@ -548,9 +558,10 @@ body {
 
 .txPulicList1 ul li {
   float: left;
-  width: 196px;
-  margin-right: 20px;
-  margin-top: 20px;
+  width: 212px;
+  border: 1px solid transparent;
+  text-align: center;
+  padding: 8px;
 }
 
 .txPulicList1 ul li a {
@@ -558,10 +569,9 @@ body {
 }
 
 .txPulicList1 ul li a span {
-  display: block;
   width: 196px;
   height: 135px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .txPulicList1 ul li a span img {
@@ -572,7 +582,12 @@ body {
 .txPulicList1 ul li a p {
   font-size: 14px;
   color: #333333;
-  max-width: 196px;
+  max-width: 212px;
+  text-align: left;
+}
+
+.txPulicList1 ul li:hover {
+  border: 1px solid #eeeeee;
 }
 
 .txPulicList1 ul li:hover p {
@@ -1239,8 +1254,16 @@ body {
   width: unset;
 }
 
+.tx-module5 .txPulicList1 ul {
+  display: none;
+}
+
+.tx-module5 .txPulicList1 ul.active {
+  display: block;
+}
+
 .tx-module5 .txPulicList1 ul li {
-  width: 170px;
+  width: 186px;
 }
 
 .tx-module5 .txPulicList1 ul li a span {
@@ -1255,6 +1278,10 @@ body {
 
 .tx-module5 .txPulicList1 ul li a p {
   max-width: 170px;
+}
+
+.tx-module5 .txPulicList1 ul li:nth-child(n+9) {
+  border: 1px solid transparent;
 }
 
 .q-1 .c, .q-4 .c .bottom .list {
@@ -1329,6 +1356,10 @@ body {
   float: right;
 }
 
+.q-1 .c .l .list li a:hover p {
+  color: #1782e6;
+}
+
 .q-1 .c .l .list li:after {
   content: "";
   bottom: 10px;
@@ -1355,13 +1386,13 @@ body {
   width: 510px;
 }
 
-.q-2 .c .l .tlist .list li {
+.q-2 .c .l .list li {
   border-bottom: 1px solid #eee;
   padding-bottom: 20px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
-.q-2 .c .l .tlist .list li .w {
+.q-2 .c .l .list li .w {
   width: 40px;
   height: 45px;
   line-height: 38px;
@@ -1374,15 +1405,15 @@ body {
   color: #fff;
 }
 
-.q-2 .c .l .tlist .list li .d {
+.q-2 .c .l .list li .d {
   padding-left: 60px;
 }
 
-.q-2 .c .l .tlist .list li .d .t {
+.q-2 .c .l .list li .d .t {
   overflow: hidden;
 }
 
-.q-2 .c .l .tlist .list li .d .t h4 a {
+.q-2 .c .l .list li .d .t h4 a {
   color: #333;
   font-size: 16px;
   font-weight: bold;
@@ -1391,12 +1422,16 @@ body {
   margin-top: 0;
 }
 
-.q-2 .c .l .tlist .list li .d .t span {
+.q-2 .c .l .list li .d .t h4 a:hover {
+  color: #1782e6;
+}
+
+.q-2 .c .l .list li .d .t span {
   color: #999999;
   float: right;
 }
 
-.q-2 .c .l .tlist .list li .d p {
+.q-2 .c .l .list li .d p {
   padding-right: 28px;
   color: #666666;
   display: -webkit-box;
@@ -1416,6 +1451,10 @@ body {
   margin: 14px 0;
 }
 
+.q-2 .c .l .list2 li a {
+  display: block;
+}
+
 .q-2 .c .l .list2 li a p {
   font-size: 14px;
   color: #333;
@@ -1426,6 +1465,10 @@ body {
 .q-2 .c .l .list2 li a span {
   color: #999999;
   float: right;
+}
+
+.q-2 .c .l .list2 li a:hover p {
+  color: #1782e6;
 }
 
 .q-2 .c .l .list2 li:after {
@@ -1558,6 +1601,10 @@ body {
   background: #ddd;
 }
 
+.q-3 .c .l .tlist li .top h4 a:hover {
+  color: #1782e6;
+}
+
 .q-3 .c .l .tlist li .top span {
   color: #999999;
   float: right;
@@ -1587,6 +1634,10 @@ body {
   margin: 14px 0;
 }
 
+.q-3 .c .l .list2 li a {
+  display: block;
+}
+
 .q-3 .c .l .list2 li a p {
   font-size: 14px;
   color: #333;
@@ -1597,6 +1648,10 @@ body {
 .q-3 .c .l .list2 li a span {
   color: #999999;
   float: right;
+}
+
+.q-3 .c .l .list2 li a:hover p {
+  color: #1782e6;
 }
 
 .q-3 .c .l .list2 li:after {
@@ -1625,6 +1680,10 @@ body {
   margin-bottom: 14px;
 }
 
+.q-3 .c .r .list2 li a {
+  display: block;
+}
+
 .q-3 .c .r .list2 li a p {
   font-size: 14px;
   color: #333;
@@ -1635,6 +1694,10 @@ body {
 .q-3 .c .r .list2 li a span {
   color: #999999;
   float: right;
+}
+
+.q-3 .c .r .list2 li a:hover p {
+  color: #1782e6;
 }
 
 .q-3 .c .r .list2 li:after {
@@ -1683,7 +1746,10 @@ body {
   font-size: 20px;
   font-weight: bold;
   color: #333;
-  display: inline-block;
+}
+
+.q-4 .c .top .box .t1 h4:hover {
+  color: #1782e6;
 }
 
 .q-4 .c .top .box .t1 .r {
@@ -1758,13 +1824,12 @@ body {
 }
 
 .q-4 .c .bottom .txt h4 {
-  display: inline-block;
   cursor: pointer;
   font-size: 16px;
   position: relative;
   color: #666;
-  font-weight: normal;
   margin-right: 26px;
+  padding: 0 7px;
 }
 
 .q-4 .c .bottom .txt h4.active {
@@ -1773,6 +1838,22 @@ body {
 }
 
 .q-4 .c .bottom .txt h4.active:after {
+  content: "";
+  bottom: -12px;
+  left: 0;
+  border-radius: 2px;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #1782e6;
+}
+
+.q-4 .c .bottom .txt h4:hover {
+  color: #1782e6;
+  font-weight: bold;
+}
+
+.q-4 .c .bottom .txt h4:hover:after {
   content: "";
   bottom: -12px;
   left: 0;
@@ -1803,6 +1884,10 @@ body {
   display: inline-block;
 }
 
+.q-4 .c .bottom .list li a {
+  display: block;
+}
+
 .q-4 .c .bottom .list li a p {
   font-size: 14px;
   color: #333;
@@ -1813,6 +1898,10 @@ body {
 .q-4 .c .bottom .list li a span {
   color: #999999;
   float: right;
+}
+
+.q-4 .c .bottom .list li a:hover p {
+  color: #1782e6;
 }
 
 .q-4 .c .bottom .list li:after {
@@ -1880,7 +1969,7 @@ body {
 /* 18.热门院校（院校终端-首页） */
 .q-6 {
   background: #fff;
-  padding: 20px;
+  padding: 20px 20px 0;
   width: 300px;
   margin-bottom: 20px;
 }
@@ -2074,17 +2163,17 @@ body {
   margin-top: 64px;
 }
 
-.yjs-recommend .content {
+.yjs-recommend .recommend {
   background-color: #ffffff;
   padding: 20px 0;
 }
 
-.yjs-recommend .content .tab-head {
+.yjs-recommend .recommend .tab-head {
   border-bottom: 1px solid #eeeeee;
   margin: 0 20px;
 }
 
-.yjs-recommend .content .tab-head span {
+.yjs-recommend .recommend .tab-head span {
   text-align: center;
   font-size: 16px;
   color: #333333;
@@ -2092,49 +2181,60 @@ body {
   padding: 0 7px 18px;
 }
 
-.yjs-recommend .content .tab-head span.cur {
+.yjs-recommend .recommend .tab-head span.active {
   color: #1782e6;
   border-bottom: 3px solid #1782e6;
   font-weight: bold;
 }
 
-.yjs-recommend .content .tab-head span:hover {
+.yjs-recommend .recommend .tab-head span:hover {
   color: #1782e6;
   border-bottom: 3px solid #1782e6;
   font-weight: bold;
 }
 
-.yjs-recommend .content .tab-item ul li {
+.yjs-recommend .recommend .tab-item {
+  display: none;
+}
+
+.yjs-recommend .recommend .tab-item.active {
+  display: block;
+}
+
+.yjs-recommend .recommend .tab-item ul li {
   float: left;
-  width: 196px;
-  height: 80px;
   background-color: #ffffff;
   border: solid 1px #eeeeee;
   margin-left: 20px;
   margin-top: 20px;
-  padding: 10px 12px;
   position: relative;
 }
 
-.yjs-recommend .content .tab-item ul li .text .name {
+.yjs-recommend .recommend .tab-item ul li a {
+  width: 196px;
+  height: 80px;
+  padding: 10px 12px;
+}
+
+.yjs-recommend .recommend .tab-item ul li .text .name {
   font-size: 16px;
   line-height: 30px;
   font-weight: bold;
   color: #333333;
 }
 
-.yjs-recommend .content .tab-item ul li .text p {
+.yjs-recommend .recommend .tab-item ul li .text p {
   font-size: 14px;
   color: #666666;
 }
 
-.yjs-recommend .content .tab-item ul li .emphasis {
+.yjs-recommend .recommend .tab-item ul li .emphasis {
   position: absolute;
   top: -3px;
   right: 0;
 }
 
-.yjs-recommend .content .tab-item ul li .emphasis span {
+.yjs-recommend .recommend .tab-item ul li .emphasis span {
   width: 32px;
   height: 16px;
   line-height: 16px;
@@ -2144,7 +2244,7 @@ body {
   float: left;
 }
 
-.yjs-recommend .content .tab-item ul li .emphasis span.first {
+.yjs-recommend .recommend .tab-item ul li .emphasis span.first {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#1782e6), to(#1ca7ff)), -webkit-gradient(linear, left top, left bottom, from(#1782e6), to(#1782e6));
   background-image: linear-gradient(0deg, #1782e6 0%, #1ca7ff 100%), linear-gradient(#1782e6, #1782e6);
   background-blend-mode: normal, normal;
@@ -2152,7 +2252,7 @@ body {
           box-shadow: 0px 5px 10px 0px rgba(18, 90, 157, 0.15);
 }
 
-.yjs-recommend .content .tab-item ul li .emphasis span.second {
+.yjs-recommend .recommend .tab-item ul li .emphasis span.second {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#17b3e6), to(#24c6fc)), -webkit-gradient(linear, left top, left bottom, from(#1782e6), to(#1782e6));
   background-image: linear-gradient(0deg, #17b3e6 0%, #24c6fc 100%), linear-gradient(#1782e6, #1782e6);
   background-blend-mode: normal, normal;
@@ -2163,20 +2263,16 @@ body {
 /* 友情链接 */
 .yjs-link {
   margin-bottom: 20px;
-}
-
-.yjs-link .content {
-  height: 154px;
   background-color: #ffffff;
   padding: 20px 0;
 }
 
-.yjs-link .content .tab-head {
+.yjs-link .tab-head {
   border-bottom: 1px solid #eeeeee;
   margin: 0 20px;
 }
 
-.yjs-link .content .tab-head span {
+.yjs-link .tab-head span {
   text-align: center;
   font-size: 16px;
   color: #333333;
@@ -2184,28 +2280,28 @@ body {
   cursor: pointer;
 }
 
-.yjs-link .content .tab-head span.cur {
+.yjs-link .tab-head span.active {
   color: #1782e6;
   border-bottom: 3px solid #1782e6;
   font-weight: bold;
 }
 
-.yjs-link .content .tab-head span:hover {
+.yjs-link .tab-head span:hover {
   color: #1782e6;
   border-bottom: 3px solid #1782e6;
   font-weight: bold;
 }
 
-.yjs-link .content .tab-item {
+.yjs-link .tab-item {
   padding-top: 20px;
   display: none;
 }
 
-.yjs-link .content .tab-item.cur {
+.yjs-link .tab-item.active {
   display: block;
 }
 
-.yjs-link .content .tab-item a {
+.yjs-link .tab-item a {
   float: left;
   margin: 0px 20px 10px;
 }
@@ -2262,11 +2358,6 @@ body {
   color: #1782e6;
 }
 
-.yxzd-topbar .content .topbar-nav ul li a:hover i {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
 .yxzd-topbar .content .topbar-nav ul li .submenu {
   position: absolute;
   top: 24px;
@@ -2302,11 +2393,6 @@ body {
 
 .yxzd-topbar .content .cities-nav ul li a:hover {
   color: #1782e6;
-}
-
-.yxzd-topbar .content .cities-nav ul li a:hover i {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
 }
 
 .yxzd-topbar .content .cities-nav ul li .submenu {
@@ -2463,10 +2549,6 @@ body {
   margin-bottom: 20px;
 }
 
-.yxzd-l .yxzd-l-wd .title-module {
-  margin-bottom: 20px;
-}
-
 .yxzd-l .yxzd-l-wd .title-module .more {
   width: 54px;
   height: 22px;
@@ -2474,6 +2556,29 @@ body {
   text-align: center;
   border-radius: 2px;
   border: solid 1px #dddddd;
+}
+
+.yxzd-l .yxzd-l-wd ul img.mba {
+  margin-bottom: 36px;
+}
+
+.yxzd-l .yxzd-l-wd ul li {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.yxzd-l .yxzd-l-wd ul li:first-child {
+  padding-top: 0;
+}
+
+.yxzd-l .yxzd-l-wd ul li h4 a {
+  color: #333333;
+  font-size: 16px;
+}
+
+.yxzd-l .yxzd-l-wd ul li h4 a:hover {
+  color: #1782e6;
 }
 
 .yxzd-l .yxzd-l-wd .wd-good {
@@ -2499,8 +2604,13 @@ body {
   float: left;
 }
 
-.yxzd-l .yxzd-l-wd .wd-good .good-text .title-module .title-l span {
+.yxzd-l .yxzd-l-wd .wd-good .good-text .title-module a {
+  color: #333333;
   font-size: 16px;
+}
+
+.yxzd-l .yxzd-l-wd .wd-good .good-text .title-module a:hover {
+  color: #1782e6;
 }
 
 .yxzd-l .yxzd-l-wd .wd-good.xywd {
@@ -2534,10 +2644,11 @@ body {
 
 .yxzd-l .yxzd-l-wd .jz-item p {
   text-indent: 2em;
+  line-height: 2;
 }
 
-.yxzd-l .yxzd-l-wd .jz-item div {
-  line-height: 1.8;
+.yxzd-l .yxzd-l-wd .jz-item > div {
+  line-height: 2;
 }
 
 .yxzd-l .yxzd-l-wd .jz-item img {
@@ -2773,10 +2884,9 @@ body {
   font-size: 16px;
   color: #666666;
   padding-left: 10px;
-  padding-right: 30px;
+  padding-right: 10px;
   margin-right: 20px;
-  cursor: pointer;
-  background: url("../images/yxk-close.png") no-repeat 90%;
+  text-align: center;
 }
 
 .yxzd-l .msg-classify .msg-types .item:last-child {
@@ -2798,8 +2908,13 @@ body {
   margin-bottom: 10px;
 }
 
-.yxzd-l .msg-wd .wd-item .title-module .title-l span {
+.yxzd-l .msg-wd .wd-item .title-module a {
   font-size: 16px;
+  color: #333333;
+}
+
+.yxzd-l .msg-wd .wd-item .title-module a:hover {
+  color: #1782e6;
 }
 
 .yxzd-l .brochures {
@@ -2835,6 +2950,7 @@ body {
 
 .yxzd-l .brochures .jz-item p {
   text-indent: 2em;
+  line-height: 2;
 }
 
 .yxzd-l .brochures .jz-item .course {
@@ -2885,7 +3001,8 @@ body {
 
 .yxzd-l .brochures .jz-item .course .course-row:nth-of-type(1) .row-item:last-child {
   height: 150px;
-  padding: 40px 10px;
+  padding: 30px 10px;
+  line-height: 1.8;
 }
 
 .yxzd-l .brochures .jz-item .course .course-row:nth-of-type(2) .row-item:nth-of-type(1) {
@@ -2894,7 +3011,8 @@ body {
 
 .yxzd-l .brochures .jz-item .course .course-row:nth-of-type(2) .row-item:last-child {
   height: 180px;
-  padding: 30px 10px;
+  padding: 10px 10px;
+  line-height: 1.8;
 }
 
 .yxzd-l .brochures .jz-item .course .course-row:nth-of-type(3) .row-item:nth-of-type(1) {
@@ -2904,6 +3022,7 @@ body {
 .yxzd-l .brochures .jz-item .course .course-row:nth-of-type(3) .row-item:last-child {
   height: 60px;
   padding: 0px 10px;
+  line-height: 1.4;
 }
 
 .yxzd-l .brochures .jz-item .course .course-row:nth-of-type(4) .row-item:nth-of-type(1) {
@@ -2913,6 +3032,7 @@ body {
 .yxzd-l .brochures .jz-item .course .course-row:nth-of-type(4) .row-item:last-child {
   height: 90px;
   padding: 20px 10px;
+  line-height: 1.8;
 }
 
 .yxzd-l .brochures .jz-item .paging {
@@ -3062,6 +3182,7 @@ body {
   text-align: center;
   padding-bottom: 20px;
   border-bottom: 1px solid #eeeeee;
+  margin-bottom: 20px;
 }
 
 .yxzd-l .text-msg .source {
@@ -3183,10 +3304,9 @@ body {
   font-size: 16px;
   color: #666666;
   padding-left: 10px;
-  padding-right: 30px;
+  padding-right: 10px;
   margin-right: 20px;
-  cursor: pointer;
-  background: url("../images/yxk-close.png") no-repeat 90%;
+  text-align: center;
 }
 
 .academy .academy-types .studying-types:last-child {
@@ -3319,11 +3439,11 @@ body {
 .yx-wd {
   background-color: #ffffff;
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 12px;
 }
 
 .yx-wd ul {
-  margin-right: -20px;
+  margin-right: -4px;
   display: none;
 }
 
@@ -3333,8 +3453,10 @@ body {
 
 .yx-wd ul li {
   float: left;
-  width: 196px;
-  margin-right: 20px;
+  width: 212px;
+  padding: 8px;
+  margin-right: 4px;
+  border: 1px solid transparent;
 }
 
 .yx-wd ul li a {
@@ -3343,7 +3465,7 @@ body {
 
 .yx-wd ul li a span {
   display: block;
-  width: 196px;
+  width: 212px;
   height: 135px;
   margin-bottom: 16px;
 }
@@ -3357,6 +3479,10 @@ body {
   font-size: 14px;
   color: #333333;
   max-width: 196px;
+}
+
+.yx-wd ul li:hover {
+  border: 1px solid #eeeeee;
 }
 
 .yx-wd ul li:hover p {
@@ -3529,7 +3655,7 @@ body {
   color: #ffffff;
 }
 
-.right-nav ul li:hover .hide-content {
+.right-nav ul li .hide-content.active {
   display: block;
 }
 

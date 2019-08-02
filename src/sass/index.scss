@@ -186,9 +186,7 @@ body {
           background: url('../images/css_sprites.png') -47px -295px;
           position: absolute;
           left: 13px;
-          top: 0;
-          bottom: 0;
-          margin: auto;
+          top: 13px;
         }
       }
       input {
@@ -348,7 +346,6 @@ body {
   }
 }
 
-
 /* 标题模板 */
 .title-module { // tx-title
   //padding-top: 20px;
@@ -458,21 +455,23 @@ body {
       ul {
         margin-right: -20px;
         display: none;
+        padding-top: 10px;
         &:first-child {
           display: block;
         }
         li {
           float: left;
-          width: 196px;
-          margin-right: 20px;
-          margin-top: 20px;
+          width: 212px;
+          padding-top: 8px;
+          text-align: center;
+          border: 1px solid transparent;
           a {
             display: block;
             span {
-              display: block;
-              width: 196px;
+              @extend %in-b;
+              width: 212px;
               height: 135px;
-              margin-bottom: 16px;
+              margin-bottom: 10px;
               img {
                 width: 196px;
                 height: 135px;
@@ -481,14 +480,22 @@ body {
             p {
               font-size: 14px;
               color: #333333;
-              max-width: 196px;
+              max-width: 212px;
               @extend %one;
+              text-align: left;
+              padding-left: 8px;
             }
           }
           &:hover {
+            border: 1px solid #eeeeee;
             p {
               color: #1782e6;
             }
+          }
+        }
+        li:nth-child(n+11){
+          &:hover{
+            border: 1px solid transparent;
           }
         }
       }
@@ -523,21 +530,23 @@ body {
   ul {
     margin-right: -20px;
     display: none;
+    padding-top: 12px;
     &:first-child {
       display: block;
     }
     li {
       float: left;
-      width: 196px;
-      margin-right: 20px;
-      margin-top: 20px;
+      width: 212px;
+      border: 1px solid transparent;
+      text-align: center;
+      padding: 8px;
       a {
         display: block;
         span {
-          display: block;
+          @extend %in-b;
           width: 196px;
           height: 135px;
-          margin-bottom: 16px;
+          margin-bottom: 10px;
           img {
             width: 196px;
             height: 135px;
@@ -546,11 +555,14 @@ body {
         p {
           font-size: 14px;
           color: #333333;
-          max-width: 196px;
+          max-width: 212px;
           @extend %one;
+          text-align: left;
         }
       }
+
       &:hover {
+        border: 1px solid #eeeeee;
         p {
           color: #1782e6;
         }
@@ -1157,8 +1169,12 @@ body {
   }
   .txPulicList1 {
     ul {
+      display: none;
+      &.active{
+        display: block;
+      }
       li {
-        width: 170px;
+        width: 186px;
         a {
           span {
             width: 170px;
@@ -1171,6 +1187,9 @@ body {
           p {
             max-width: 170px;
           }
+        }
+        &:nth-child(n+9){
+          border: 1px solid transparent;
         }
       }
     }
@@ -1189,7 +1208,6 @@ body {
   .c {
     background: #fff;
     padding: 20px;
-    //margin-top: 24px;
     @extend %flex;
     .l {
       width: 510px;
@@ -1234,6 +1252,11 @@ body {
               color: #999999;
               float: right;
             }
+            &:hover{
+              p{
+                color: $bg-color;
+              }
+            }
           }
           &:after {
             content: "";
@@ -1251,7 +1274,6 @@ body {
   }
 
 }
-
 /* 7.学员问答（国际国内省份首页） */
 .q-2 {
   margin-bottom: 20px;
@@ -1262,55 +1284,57 @@ body {
     .l {
       float: left;
       width: 510px;
-      .tlist {
-        .list {
-          li {
-            border-bottom: 1px solid #eee;
-            padding-bottom: 20px;
-            margin-bottom: 24px;
-            .w {
-              width: 40px;
-              height: 45px;
-              line-height: 38px;
-              margin-left: 10px;
-              text-align: center;
-              float: left;
-              //background: url(../images/icon_15.png) no-repeat center;
-              background: url("../images/css_sprites.png") -10px -70px;
-              font-size: 16px;
-              font-weight: bold;
-              color: #fff
-            }
-            .d {
-              padding-left: 60px;
-              .t {
-                overflow: hidden;
-                h4 a {
+      .list {
+        li {
+          border-bottom: 1px solid #eee;
+          padding-bottom: 20px;
+          margin-bottom: 20px;
+          .w {
+            width: 40px;
+            height: 45px;
+            line-height: 38px;
+            margin-left: 10px;
+            text-align: center;
+            float: left;
+            //background: url(../images/icon_15.png) no-repeat center;
+            background: url("../images/css_sprites.png") -10px -70px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff
+          }
+          .d {
+            padding-left: 60px;
+            .t {
+              overflow: hidden;
+              h4{
+                a {
                   color: #333;
                   font-size: 16px;
                   font-weight: bold;
                   float: left;
                   margin-bottom: 12px;
                   margin-top: 0;
-                }
-                span {
-                  color: #999999;
-                  float: right;
+                  &:hover{
+                    color: $bg-color;
+                  }
                 }
               }
-              p {
-                padding-right: 28px;
-                color: #666666;
-                display: -webkit-box;
-                -webkit-line-clamp: 2;
-                -webkit-box-orient: vertical;
-                overflow: hidden;
-                text-overflow: ellipsis;
+              span {
+                color: #999999;
+                float: right;
               }
+            }
+            p {
+              padding-right: 28px;
+              color: #666666;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+              text-overflow: ellipsis;
             }
           }
         }
-
       }
       .list2 {
         overflow: hidden;
@@ -1319,6 +1343,7 @@ body {
           padding-left: 15px;
           margin: 14px 0;
           a {
+            display: block;
             p {
               font-size: 14px;
               color: #333;
@@ -1329,6 +1354,11 @@ body {
             span {
               color: #999999;
               float: right;
+            }
+            &:hover{
+              p{
+                color: $bg-color;
+              }
             }
           }
           &:after {
@@ -1410,14 +1440,11 @@ body {
     }
   }
 }
-
 /* 8.相关资讯（国际国内省份首页） */
 .q-3 {
-  //margin-top: 40px;
   .c {
     background: #fff;
     padding: 20px;
-    //margin-top: 24px;
     .l {
       width: 510px;
       float: left;
@@ -1428,26 +1455,31 @@ body {
           margin-bottom: 24px;
           .top {
             overflow: hidden;
-            h4 a {
-              @extend %one;
-              width: 340px;
-              position: relative;
-              color: #333;
-              font-size: 16px;
-              font-weight: bold;
-              padding-left: 16px;
-              float: left;
-              margin-bottom: 12px;
-              margin-top: 0;
-              &:after {
-                content: "";
-                bottom: 8px;
-                left: 0;
-                border-radius: 50%;
-                position: absolute;
-                width: 5px;
-                height: 5px;
-                background: #ddd
+            h4{
+              a {
+                @extend %one;
+                width: 340px;
+                position: relative;
+                color: #333;
+                font-size: 16px;
+                font-weight: bold;
+                padding-left: 16px;
+                float: left;
+                margin-bottom: 12px;
+                margin-top: 0;
+                &:after {
+                  content: "";
+                  bottom: 8px;
+                  left: 0;
+                  border-radius: 50%;
+                  position: absolute;
+                  width: 5px;
+                  height: 5px;
+                  background: #ddd
+                }
+                &:hover{
+                  color: $bg-color;
+                }
               }
             }
             span {
@@ -1476,6 +1508,7 @@ body {
           padding-left: 15px;
           margin: 14px 0;
           a {
+            display: block;
             p {
               font-size: 14px;
               color: #333;
@@ -1486,6 +1519,11 @@ body {
             span {
               color: #999999;
               float: right;
+            }
+            &:hover{
+              p{
+                color: $bg-color;
+              }
             }
           }
           &:after {
@@ -1511,6 +1549,7 @@ body {
           padding-left: 15px;
           margin-bottom: 14px;
           a {
+            display: block;
             p {
               font-size: 14px;
               color: #333;
@@ -1521,6 +1560,11 @@ body {
             span {
               color: #999999;
               float: right;
+            }
+            &:hover{
+              p{
+                color: $bg-color;
+              }
             }
           }
           &:after {
@@ -1538,12 +1582,9 @@ body {
     }
   }
 }
-
 /* 13.北京大学在职研究生（院校终端-首页） */
 .q-4 {
-  //margin-top: 40px;
   width: 780px;
-  //float: left;
   margin-bottom: 20px;
   .c {
     background: #fff;
@@ -1564,10 +1605,13 @@ body {
         .t1 {
           margin-bottom: 24px;
           h4 {
+            @extend %in-b;
             font-size: 20px;
             font-weight: bold;
             color: #333;
-            display: inline-block;
+            &:hover{
+              color: $bg-color;
+            }
           }
           .r {
             float: right;
@@ -1642,17 +1686,31 @@ body {
         padding-bottom: 12px;
         border-bottom: 1px solid #eee;
         h4 {
-          display: inline-block;
+          @extend %in-b;
           cursor: pointer;
           font-size: 16px;
           position: relative;
           color: #666;
-          font-weight: normal;
           margin-right: 26px;
+          padding: 0 7px;
           &.active {
             color: #1782e6;
             font-weight: bold;
             &:after {
+              content: "";
+              bottom: -12px;
+              left: 0;
+              border-radius: 2px;
+              position: absolute;
+              width: 100%;
+              height: 3px;
+              background: #1782e6
+            }
+          }
+          &:hover{
+            color: $bg-color;
+            font-weight: bold;
+            &:after{
               content: "";
               bottom: -12px;
               left: 0;
@@ -1680,6 +1738,7 @@ body {
           width: 324px;
           display: inline-block;
           a {
+            display: block;
             p {
               font-size: 14px;
               color: #333;
@@ -1690,6 +1749,11 @@ body {
             span {
               color: #999999;
               float: right;
+            }
+            &:hover{
+              p{
+                color: $bg-color;
+              }
             }
           }
           &:after {
@@ -1754,7 +1818,7 @@ body {
 /* 18.热门院校（院校终端-首页） */
 .q-6 {
   background: #fff;
-  padding: 20px;
+  padding: 20px 20px 0;
   width: 300px;
   //float: right;
   margin-bottom: 20px;
@@ -1933,7 +1997,7 @@ body {
     margin-top: 64px;
     //margin-bottom: 24px;
   }
-  .content {
+  .recommend {
     background-color: #ffffff;
     //border: 1px solid red;
     padding: 20px 0;
@@ -1949,7 +2013,7 @@ body {
         cursor: pointer;
         padding: 0 7px 18px;
 
-        &.cur {
+        &.active {
           color: $bg-color;
           border-bottom: 3px solid $bg-color;
           font-weight: bold;
@@ -1962,18 +2026,26 @@ body {
       }
     }
     .tab-item {
+      display: none;
+      &.active{
+        display: block;
+      }
       ul {
         @extend %clearfix;
         li {
           float: left;
-          width: 196px;
-          height: 80px;
+
           background-color: #ffffff;
           border: solid 1px #eeeeee;
           margin-left: 20px;
           margin-top: 20px;
-          padding: 10px 12px;
           position: relative;
+          a{
+            @extend %in-b;
+            width: 196px;
+            height: 80px;
+            padding: 10px 12px;
+          }
           img {
             @extend %in-b;
           }
@@ -2037,45 +2109,42 @@ body {
 /* 友情链接 */
 .yjs-link {
   margin-bottom: 20px;
-  .content {
-    height: 154px;
-    background-color: #ffffff;
-    //border: 1px solid red;
-    padding: 20px 0;
-    .tab-head {
-      border-bottom: 1px solid #eeeeee;
-      margin: 0 20px;
-      span {
-        @extend %in-b;
-        //width: 46px;
-        text-align: center;
-        font-size: 16px;
-        color: #333333;
-        padding: 0 7px 18px;
-        cursor: pointer;
-        &.cur {
-          color: $bg-color;
-          border-bottom: 3px solid $bg-color;
-          font-weight: bold;
-        }
-        &:hover{
-          color: $bg-color;
-          border-bottom: 3px solid $bg-color;
-          font-weight: bold;
-        }
+  background-color: #ffffff;
+  //border: 1px solid red;
+  padding: 20px 0;
+  .tab-head {
+    border-bottom: 1px solid #eeeeee;
+    margin: 0 20px;
+    span {
+      @extend %in-b;
+      //width: 46px;
+      text-align: center;
+      font-size: 16px;
+      color: #333333;
+      padding: 0 7px 18px;
+      cursor: pointer;
+      &.active {
+        color: $bg-color;
+        border-bottom: 3px solid $bg-color;
+        font-weight: bold;
+      }
+      &:hover{
+        color: $bg-color;
+        border-bottom: 3px solid $bg-color;
+        font-weight: bold;
       }
     }
-    .tab-item {
-      @extend %clearfix;
-      padding-top: 20px;
-      display: none;
-      &.cur {
-        display: block;
-      }
-      a {
-        float: left;
-        margin: 0px 20px 10px;
-      }
+  }
+  .tab-item {
+    @extend %clearfix;
+    padding-top: 20px;
+    display: none;
+    &.active {
+      display: block;
+    }
+    a {
+      float: left;
+      margin: 0px 20px 10px;
     }
   }
 }
@@ -2121,7 +2190,7 @@ body {
             &:hover {
               color: $bg-color;
               i {
-                transform: rotate(180deg);
+                //transform: rotate(180deg);
               }
             }
           }
@@ -2158,7 +2227,7 @@ body {
             &:hover {
               color: $bg-color;
               i {
-                transform: rotate(180deg);
+                //transform: rotate(180deg);
               }
             }
           }
@@ -2309,7 +2378,7 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     .title-module {
-      margin-bottom: 20px;
+      //margin-bottom: 20px;
       .more {
         width: 54px;
         height: 22px;
@@ -2317,6 +2386,29 @@ body {
         text-align: center;
         border-radius: 2px;
         border: solid 1px #dddddd;
+      }
+    }
+
+    ul{
+      img.mba{
+        margin-bottom: 36px;
+      }
+      li{
+        border-bottom: 1px solid #eeeeee;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        &:first-child{
+          padding-top: 0;
+        }
+        h4{
+          a{
+            color: #333333;
+            font-size: 16px;
+            &:hover{
+              color: $bg-color;
+            }
+          }
+        }
       }
     }
     .wd-good {
@@ -2340,9 +2432,11 @@ body {
         width: 677px;
         float: left;
         .title-module {
-          .title-l {
-            span {
-              font-size: 16px;
+          a{
+            color: #333333;
+            font-size: 16px;
+            &:hover{
+              color: $bg-color;
             }
           }
         }
@@ -2378,9 +2472,10 @@ body {
       @extend %clearfix;
       p{
         text-indent: 2em;
+        line-height: 2;
       }
-      div{
-        line-height: 1.8;
+      > div{
+        line-height: 2;
       }
       img{
         padding-top: 20px;
@@ -2600,10 +2695,11 @@ body {
             font-size: 16px;
             color: #666666;
             padding-left: 10px;
-            padding-right: 30px;
+            padding-right: 10px;
             margin-right: 20px;
-            cursor: pointer;
-            background: url("../images/yxk-close.png") no-repeat 90%;
+            //cursor: pointer;
+            //background: url("../images/yxk-close.png") no-repeat 90%;
+            text-align: center;
           }
         }
         &:last-child {
@@ -2623,9 +2719,11 @@ body {
       padding-top: 20px;
       .title-module {
         margin-bottom: 10px;
-        .title-l {
-          span {
-            font-size: 16px;
+        a{
+          font-size: 16px;
+          color: #333333;
+          &:hover{
+            color: $bg-color;
           }
         }
       }
@@ -2661,6 +2759,7 @@ body {
       @extend %clearfix;
       p {
         text-indent: 2em;
+        line-height: 2;
       }
       .course {
         border-top: 1px solid #c4d1de;
@@ -2704,7 +2803,8 @@ body {
               }
               &:last-child {
                 height: 150px;
-                padding: 40px 10px;
+                padding: 30px 10px;
+                line-height: 1.8;
               }
             }
           }
@@ -2715,7 +2815,8 @@ body {
               }
               &:last-child {
                 height: 180px;
-                padding: 30px 10px;
+                padding: 10px 10px;
+                line-height: 1.8;
               }
             }
           }
@@ -2727,6 +2828,7 @@ body {
               &:last-child {
                 height: 60px;
                 padding: 0px 10px;
+                line-height: 1.4;
               }
             }
           }
@@ -2738,6 +2840,7 @@ body {
               &:last-child {
                 height: 90px;
                 padding: 20px 10px;
+                line-height: 1.8;
               }
             }
           }
@@ -2884,6 +2987,7 @@ body {
     text-align: center;
     padding-bottom: 20px;
     border-bottom: 1px solid #eeeeee;
+    margin-bottom: 20px;
     .source {
       vertical-align: middle;
       margin-right: 20px;
@@ -2995,10 +3099,11 @@ body {
           font-size: 16px;
           color: #666666;
           padding-left: 10px;
-          padding-right: 30px;
+          padding-right: 10px;
           margin-right: 20px;
-          cursor: pointer;
-          background: url("../images/yxk-close.png") no-repeat 90%;
+          //cursor: pointer;
+          //background: url("../images/yxk-close.png") no-repeat 90%;
+          text-align: center;
         }
       }
       &:last-child {
@@ -3125,22 +3230,24 @@ body {
 .yx-wd {
   background-color: #ffffff;
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 12px;
   ul {
-    margin-right: -20px;
+    margin-right: -4px;
     display: none;
     &:first-child {
       display: block;
     }
     li {
       float: left;
-      width: 196px;
-      margin-right: 20px;
+      width: 212px;
+      padding: 8px;
+      margin-right: 4px;
+      border: 1px solid transparent;
       a {
         display: block;
         span {
           display: block;
-          width: 196px;
+          width: 212px;
           height: 135px;
           margin-bottom: 16px;
           img {
@@ -3156,6 +3263,7 @@ body {
         }
       }
       &:hover {
+        border: 1px solid #eeeeee;
         p {
           color: #1782e6;
         }
@@ -3318,9 +3426,7 @@ body {
             color: #ffffff;
           }
         }
-      }
-      &:hover{
-        .hide-content{
+        &.active{
           display: block;
         }
       }
@@ -3332,4 +3438,3 @@ body {
     }
   }
 }
-
