@@ -290,15 +290,16 @@ body {
   height: 50px;
   background-color: #ffffff;
   margin-bottom: 20px;
-  .content {
-    padding-top: 18px;
-    .type-item {
+  padding-top: 18px;
+  .type-left {
+    float: left;
+    a{
       @extend %in-b;
       line-height: 15px;
       padding-right: 25px;
       border-right: 1px solid #dddddd;
       margin-right: 25px;
-      &.cur {
+      &.active {
         color: $bg-color;
       }
       &:before {
@@ -318,12 +319,16 @@ body {
         }
       }
     }
-    .type-detail {
+  }
+  .type-detail {
+    @extend %in-b;
+    ul {
       display: none;
-      &.cur{
-        @extend %in-b;
+      &.active{
+        display: inline-block;
       }
       .detail-title {
+        float: left;
         &:before {
           @extend %in-b;
           vertical-align: middle;
@@ -334,11 +339,37 @@ body {
           margin-right: 10px;
         }
       }
-      ul {
-        @extend %in-b;
-        li {
-          a {
-            padding: 0 10px;
+      li {
+        float: left;
+        a {
+          padding: 0 10px;
+        }
+      }
+      .more-types{
+        position: relative;
+        .provinces{
+          display: none;
+          width: 300px;
+          position: absolute;
+          right: 0;
+          top: 44px;
+          background-color: #ffffff;
+          padding: 10px 0 10px;
+          border-radius: 4px;
+          box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+          a{
+            float: left;
+          }
+          &:before{
+            content: '';
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid #ffffff;
+            position: absolute;
+            top: -10px;
+            right: 24px;
           }
         }
       }
@@ -488,6 +519,7 @@ body {
           }
           &:hover {
             border: 1px solid #eeeeee;
+            box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
             p {
               color: #1782e6;
             }
@@ -496,6 +528,7 @@ body {
         li:nth-child(n+11){
           &:hover{
             border: 1px solid transparent;
+            box-shadow: none;
           }
         }
       }
@@ -563,6 +596,7 @@ body {
 
       &:hover {
         border: 1px solid #eeeeee;
+        box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
         p {
           color: #1782e6;
         }
@@ -2036,29 +2070,37 @@ body {
           float: left;
 
           background-color: #ffffff;
-          border: solid 1px #eeeeee;
           margin-left: 20px;
           margin-top: 20px;
           position: relative;
           a{
             @extend %in-b;
             width: 196px;
-            height: 80px;
-            padding: 10px 12px;
+            height: 120px;
+            padding: 17px 16px 14px;
+            border: solid 1px #eeeeee;
+            &:hover{
+              box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+            }
           }
           img {
             @extend %in-b;
+            margin-bottom: 15px;
           }
           .text {
-            @extend %in-b;
+            //@extend %in-b;
+            text-align: center;
+            border-top: 1px solid #eeeeee;
+            padding-top: 10px;
             .name {
-              font-size: 16px;
+              font-size: 14px;
               line-height: 30px;
               font-weight: bold;
               color: #333333;
             }
             p {
               font-size: 14px;
+              line-height: 14px;
               color: #666666;
             }
           }
@@ -2159,85 +2201,121 @@ body {
   height: 50px;
   background-color: #ffffff;
   box-shadow: 0px 1px 0px 0px #dddddd;
-  .content {
-    padding-top: 16px;
-    h1 {
-      font-size: 18px;
-      line-height: 18px;
-      color: #333333;
-      padding-right: 10px;
-      border-right: 1px solid #dddddd;
-      float: left;
-    }
-    .topbar-nav {
-      position: relative;
-      float: left;
-      ul {
-        @extend %clearfix;
-        li {
-          float: left;
-          a {
-            color: #555555;
-            padding: 0 8px;
+  padding-top: 16px;
+  h1 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #333333;
+    padding-right: 10px;
+    border-right: 1px solid #dddddd;
+    float: left;
+  }
+  .topbar-nav {
+    position: relative;
+    float: left;
+    ul {
+      @extend %clearfix;
+      li {
+        float: left;
+        height: 20px;
+        a {
+          color: #555555;
+          padding: 0 8px;
+          i {
+            @extend %in-b;
+            width: 10px;
+            height: 7px;
+            vertical-align: middle;
+            background: url("../images/yjs-icon_1.png") no-repeat;
+            margin-left: 9px;
+          }
+          &:hover {
+            color: $bg-color;
             i {
-              @extend %in-b;
-              width: 10px;
-              height: 7px;
-              vertical-align: middle;
-              background: url("../images/yjs-icon_1.png") no-repeat;
-              margin-left: 9px;
-            }
-            &:hover {
-              color: $bg-color;
-              i {
-                //transform: rotate(180deg);
-              }
+              //transform: rotate(180deg);
             }
           }
-          .submenu {
-            position: absolute;
-            top: 24px;
-            display: none;
-            li {
-              float: none;
+        }
+        .submenu {
+          background-color: #ffffff;
+          padding: 6px 0;
+          display: none;
+          li {
+            float: none;
+            text-align: center;
+            a{
+              line-height: 24px;
             }
+          }
+        }
+        &:hover {
+          .submenu {
+            display: block;
           }
         }
       }
     }
-    .cities-nav {
-      position: relative;
-      float: right;
-      ul {
-        @extend %clearfix;
-        li {
-          float: left;
-          color: #dddddd;
-          a {
-            color: #555555;
-            padding: 0 8px;
+  }
+  .cities-nav {
+    position: relative;
+    float: right;
+    ul {
+      @extend %clearfix;
+      li {
+        float: left;
+        color: #dddddd;
+        a {
+          color: #555555;
+          padding: 0 8px;
+          i {
+            @extend %in-b;
+            width: 10px;
+            height: 7px;
+            vertical-align: middle;
+            background: url("../images/yjs-icon_1.png") no-repeat;
+            margin-left: 9px;
+          }
+          &:hover {
+            color: $bg-color;
             i {
-              @extend %in-b;
-              width: 10px;
-              height: 7px;
-              vertical-align: middle;
-              background: url("../images/yjs-icon_1.png") no-repeat;
-              margin-left: 9px;
-            }
-            &:hover {
-              color: $bg-color;
-              i {
-                //transform: rotate(180deg);
-              }
+              //transform: rotate(180deg);
             }
           }
-          .submenu {
+        }
+        .submenu {
+          position: absolute;
+          top: 24px;
+          display: none;
+          li {
+            float: none;
+          }
+        }
+      }
+      .more-types{
+        position: relative;
+        .provinces{
+          display: none;
+          width: 300px;
+          position: absolute;
+          right: 0;
+          top: 44px;
+          background-color: #ffffff;
+          padding: 10px 0 10px;
+          border-radius: 4px;
+          box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+          a{
+            float: left;
+          }
+          &:before{
+            content: '';
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid #ffffff;
             position: absolute;
-            top: 24px;
-            display: none;
-            li {
-              float: none;
-            }
+            top: -10px;
+            right: 24px;
           }
         }
       }
@@ -2686,6 +2764,19 @@ body {
               color: #ffffff;
             }
           }
+          .more{
+            @extend %in-b;
+            a{
+              color: #444444;
+              &.active{
+                background-color: transparent;
+                color: #444444;
+              }
+              &:hover{
+                color: $bg-color;
+              }
+            }
+          }
           span {
             @extend %in-b;
             //width: 100px;
@@ -3077,6 +3168,18 @@ body {
       .types-r {
         float: left;
         max-width: 970px;
+        .more{
+          @extend %in-b;
+          a{
+            &.active{
+              background-color: transparent;
+              color: #444444;
+            }
+            &:hover{
+              color: $bg-color;
+            }
+          }
+        }
         a {
           @extend %in-b;
           height: 24px;
@@ -3085,6 +3188,7 @@ body {
           padding: 0 6px;
           margin-right: 20px;
           margin-bottom: 10px;
+          color: #444444;
           &.active {
             background-color: $bg-color;
             color: #ffffff;
@@ -3114,13 +3218,13 @@ body {
   .academy-tab {
     background-color: #ffffff;
     .school-logo {
-      width: 120px;
+      width: 200px;
     }
     .school-name {
-      width: 120px;
+      width: 170px;
     }
     .school-speciality {
-      width: 200px;
+      width: 150px;
       span {
         @extend %in-b;
         color: #ffffff;
@@ -3155,17 +3259,17 @@ body {
       }
     }
     .school-major {
-      width: 300px;
+      width: 280px;
     }
     .school-operation {
-      width: 360px;
+      width: 300px;
       a {
         @extend %in-b;
         border: 1px solid $bg-color;
         color: $bg-color;
         padding: 0 5px;
         line-height: 26px;
-        margin: 0 10px;
+        margin: 0 8px;
         border-radius: 2px;
         &:hover {
           background-color: $bg-color;
@@ -3188,7 +3292,7 @@ body {
     .tab-item {
       @extend %clearfix;
       padding: 20px 0;
-      margin: 0 20px;
+      margin-left: 20px;
       border-bottom: 1px solid #eeeeee;
       > div {
         float: left;
@@ -3198,16 +3302,20 @@ body {
         line-height: 60px;
       }
       .school-logo {
-        width: 82px;
+        width: 164px;
+        img{
+          vertical-align: middle;
+        }
+
       }
       .school-name {
-        width: 160px;
+        width: 200px;
       }
       .school-speciality {
-        width: 160px;
+        width: 120px;
       }
       .school-major {
-        width: 340px;
+        width: 310px;
         span {
           color: #333333;
           border-right: 1px solid #dddddd;
@@ -3220,7 +3328,7 @@ body {
         }
       }
       .school-operation {
-        width: 318px;
+        width: 280px;
       }
     }
   }
@@ -3264,6 +3372,7 @@ body {
       }
       &:hover {
         border: 1px solid #eeeeee;
+        box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
         p {
           color: #1782e6;
         }

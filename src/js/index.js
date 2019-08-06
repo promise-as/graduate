@@ -27,6 +27,8 @@ $(function () {
   toggleTag('.yjs-link', '.tab-head', '.tab-body', 'active');
   /* 院校终端-首页 招生简章 */
   toggleTag('.tx-module5', '.title-tag', '.txPulicList1', 'active');
+  /* 首页 全国/国际 */
+  toggleTag('.yjs-types', '.type-left', '.type-detail', 'active');
 
   /* author: QiLiangpu */
   $(".txt h4").hover(function(){
@@ -45,29 +47,32 @@ $(function () {
     $(tagBox).each(function () {
       $(this).click(function () {
         $(this).addClass(addClass).siblings().removeClass(addClass);
-        $("#type a").each(function () {
+        $("#type > a").each(function () {
           if($(this).hasClass('active')){
             $('#selected span:first-child').text($(this).text());
           }
-        })
-        $("#area a").each(function () {
+        });
+        $("#area > a").each(function () {
           if($(this).hasClass('active')){
             $('#selected span:nth-child(2)').text($(this).text());
           }
-        })
-        $("#school a").each(function () {
+        });
+        $("#school > a").each(function () {
           if($(this).hasClass('active')){
             $('#selected span:nth-child(3)').text($(this).text());
           }
-        })
+        });
       });
     });
   }
+  /* 院校库 */
   clickHandle('.types-r a', 'active');
 
   var mySwiper = new Swiper('.swiper-container', {
     // 如果需要分页器
     pagination: '.swiper-pagination',
+
+    // autoplay: 2000,
   });
 
   /* 回到顶部 */
@@ -77,16 +82,25 @@ $(function () {
     });
   });
 
-
+  /* 右侧悬浮 */
   $('.right-nav li').each(function () {
     var that = $(this);
     that.mouseenter(function () {
       $('.right-nav li').each(function () {
-        $(this).find('.hide-content').removeClass("active");
-      })
-      that.find('.hide-content').addClass("active");
+        $(this).find('.hide-content').hide();
+      });
+      that.find('.hide-content').show();
     });
   });
+
+  /* 首页 全国/国际 更多> */
+  $('#moreTypes1').click(function () {
+    $(this).find('.provinces').css('display', 'block');
+  });
+  $('#moreTypes2').click(function () {
+    $(this).find('.provinces').css('display', 'block');
+  });
+
 });
 
 function CheckForm() {
@@ -102,5 +116,5 @@ function CheckForm() {
     //document.search_one.submit();
     window.open(urlx);
   }
-  return false
+  return false;
 }

@@ -100,21 +100,21 @@ html, body, div, p, a, ul, li, span, form, input, h1, h2, h3, h4 {
   overflow: hidden;
 }
 
-.yxzd-l .yxzd-l-wd .wd-list ul li a:before, .yxzd-l .others-schools .others-l .others-l-item ul li a:before, .yjs-head .head-l .logo, .yjs-head .head-l .logo:after, .yjs-head .head-l h1, .yjs-head .head-r .r-search, .yjs-head .head-r .r-tel, .yjs-head .head-r .r-tel span, .yjs-types .content .type-item, .yjs-types .content .type-item:before, .yjs-types .content .type-detail.cur, .yjs-types .content .type-detail .detail-title:before, .yjs-types .content .type-detail ul, .title-module .title-l span, .title-module h2, .title-module h3, .title-module h4, .title-module a, .tx-module1 .tx-recruitBox .recruitCon ul li a span, .txPulicList1 ul li a span, .tx-module2 .injobMaster .master-right .master-top .academy-box .school-speciality span, .q-4 .c .top .box .t1 h4, .q-4 .c .bottom .txt h4, .q-6 .c h3, .q-6 .c .list li a, .yjs-recommend .recommend .tab-head span, .yjs-recommend .recommend .tab-item ul li a, .yjs-recommend .recommend .tab-item ul li img, .yjs-recommend .recommend .tab-item ul li .text, .yjs-recommend .recommend .tab-item ul li .emphasis span, .yjs-link .tab-head span, .yxzd-topbar .content .topbar-nav ul li a i, .yxzd-topbar .content .cities-nav ul li a i, .yxzd-banner .yxzd-logo, .yxzd-banner .nav-menu, .yxzd-banner .nav-menu li, .yxzd-l .yxzd-l-wd .wd-good i, .yxzd-l .yxzd-l-wd .jz-item .paging a, .yxzd-l .yxzd-l-wdzd .wd-good .icon, .yxzd-l .yxzd-l-wdzd .wd-good .icon-d, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .source i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .author i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .time i, .yxzd-l .yxzd-l-wdzd .paging a, .yxzd-l .msg-classify .msg-types .item .types-r a, .yxzd-l .msg-classify .msg-types .item .types-r a i, .yxzd-l .msg-classify .msg-types .item .types-r span, .yxzd-l .brochures .jz-item .paging a, .yxzd-l .others-schools .others-r .r-enter .enter-btn, .yxzd-l .text-msg .source i, .yxzd-l .text-msg .author i, .yxzd-l .text-msg .time i, .yxzd-r .hot-search ul li a, .academy .academy-types .studying-types .types-r a, .academy .academy-types .studying-types .types-r span, .academy .academy-tab .school-speciality span, .academy .academy-tab .school-operation a, .right-nav .online i, .right-nav ul li a span, .right-nav ul li a .tel, .right-nav ul li a .qq, .right-nav ul li a .server, .right-nav ul li a .to-top, .right-nav ul li .hide-content p i {
+.yxzd-l .yxzd-l-wd .wd-list ul li a:before, .yxzd-l .others-schools .others-l .others-l-item ul li a:before, .yjs-head .head-l .logo, .yjs-head .head-l .logo:after, .yjs-head .head-l h1, .yjs-head .head-r .r-search, .yjs-head .head-r .r-tel, .yjs-head .head-r .r-tel span, .yjs-types .type-left a, .yjs-types .type-left a:before, .yjs-types .type-detail, .yjs-types .type-detail ul .detail-title:before, .title-module .title-l span, .title-module h2, .title-module h3, .title-module h4, .title-module a, .tx-module1 .tx-recruitBox .recruitCon ul li a span, .txPulicList1 ul li a span, .tx-module2 .injobMaster .master-right .master-top .academy-box .school-speciality span, .q-4 .c .top .box .t1 h4, .q-4 .c .bottom .txt h4, .q-6 .c h3, .q-6 .c .list li a, .yjs-recommend .recommend .tab-head span, .yjs-recommend .recommend .tab-item ul li a, .yjs-recommend .recommend .tab-item ul li img, .yjs-recommend .recommend .tab-item ul li .emphasis span, .yjs-link .tab-head span, .yxzd-topbar .topbar-nav ul li a i, .yxzd-topbar .cities-nav ul li a i, .yxzd-banner .yxzd-logo, .yxzd-banner .nav-menu, .yxzd-banner .nav-menu li, .yxzd-l .yxzd-l-wd .wd-good i, .yxzd-l .yxzd-l-wd .jz-item .paging a, .yxzd-l .yxzd-l-wdzd .wd-good .icon, .yxzd-l .yxzd-l-wdzd .wd-good .icon-d, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .source i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .author i, .yxzd-l .yxzd-l-wdzd .wd-good .good-text .text-msg .time i, .yxzd-l .yxzd-l-wdzd .paging a, .yxzd-l .msg-classify .msg-types .item .types-r a, .yxzd-l .msg-classify .msg-types .item .types-r a i, .yxzd-l .msg-classify .msg-types .item .types-r .more, .yxzd-l .msg-classify .msg-types .item .types-r span, .yxzd-l .brochures .jz-item .paging a, .yxzd-l .others-schools .others-r .r-enter .enter-btn, .yxzd-l .text-msg .source i, .yxzd-l .text-msg .author i, .yxzd-l .text-msg .time i, .yxzd-r .hot-search ul li a, .academy .academy-types .studying-types .types-r .more, .academy .academy-types .studying-types .types-r a, .academy .academy-types .studying-types .types-r span, .academy .academy-tab .school-speciality span, .academy .academy-tab .school-operation a, .right-nav .online i, .right-nav ul li a span, .right-nav ul li a .tel, .right-nav ul li a .qq, .right-nav ul li a .server, .right-nav ul li a .to-top, .right-nav ul li .hide-content p i {
   display: inline-block;
   *zoom: 1;
   *display: inline;
 }
 
-.title-module, .tx-module2 .injobMaster .master-right .master-top .academy-box ul, .yjs-recommend .recommend .tab-item ul, .yjs-link .tab-item, .yxzd-topbar .content .topbar-nav ul, .yxzd-topbar .content .cities-nav ul, .yxzd-l .yxzd-l-wd .wd-good, .yxzd-l .yxzd-l-wd .wd-list, .yxzd-l .yxzd-l-wd .jz-item, .yxzd-l .yxzd-l-wdzd .wd-good, .yxzd-l .yxzd-l-wdzd .paging, .yxzd-l .msg-classify .msg-types .item, .yxzd-l .brochures .jz-item, .yxzd-l .brochures .jz-item .course .course-row, .yxzd-l .others-schools, .yxzd-l .others-schools .others-l .others-l-item, .yxzd-r .hot-search ul, .academy .academy-types .studying-types, .academy .academy-tab .tab-head, .academy .academy-tab .tab-item {
+.title-module, .tx-module2 .injobMaster .master-right .master-top .academy-box ul, .yjs-recommend .recommend .tab-item ul, .yjs-link .tab-item, .yxzd-topbar .topbar-nav ul, .yxzd-topbar .cities-nav ul, .yxzd-l .yxzd-l-wd .wd-good, .yxzd-l .yxzd-l-wd .wd-list, .yxzd-l .yxzd-l-wd .jz-item, .yxzd-l .yxzd-l-wdzd .wd-good, .yxzd-l .yxzd-l-wdzd .paging, .yxzd-l .msg-classify .msg-types .item, .yxzd-l .brochures .jz-item, .yxzd-l .brochures .jz-item .course .course-row, .yxzd-l .others-schools, .yxzd-l .others-schools .others-l .others-l-item, .yxzd-r .hot-search ul, .academy .academy-types .studying-types, .academy .academy-tab .tab-head, .academy .academy-tab .tab-item {
   zoom: 1;
 }
 
-.title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .yjs-recommend .recommend .tab-item ul:after, .yjs-link .tab-item:after, .yxzd-topbar .content .topbar-nav ul:after, .yxzd-topbar .content .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .tab-item:after {
+.title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .yjs-recommend .recommend .tab-item ul:after, .yjs-link .tab-item:after, .yxzd-topbar .topbar-nav ul:after, .yxzd-topbar .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .tab-item:after {
   clear: both;
 }
 
-.title-module:before, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:before, .yjs-recommend .recommend .tab-item ul:before, .yjs-link .tab-item:before, .yxzd-topbar .content .topbar-nav ul:before, .yxzd-topbar .content .cities-nav ul:before, .yxzd-l .yxzd-l-wd .wd-good:before, .yxzd-l .yxzd-l-wd .wd-list:before, .yxzd-l .yxzd-l-wd .jz-item:before, .yxzd-l .yxzd-l-wdzd .wd-good:before, .yxzd-l .yxzd-l-wdzd .paging:before, .yxzd-l .msg-classify .msg-types .item:before, .yxzd-l .brochures .jz-item:before, .yxzd-l .brochures .jz-item .course .course-row:before, .yxzd-l .others-schools:before, .yxzd-l .others-schools .others-l .others-l-item:before, .yxzd-r .hot-search ul:before, .academy .academy-types .studying-types:before, .academy .academy-tab .tab-head:before, .academy .academy-tab .tab-item:before, .title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .yjs-recommend .recommend .tab-item ul:after, .yjs-link .tab-item:after, .yxzd-topbar .content .topbar-nav ul:after, .yxzd-topbar .content .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .tab-item:after {
+.title-module:before, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:before, .yjs-recommend .recommend .tab-item ul:before, .yjs-link .tab-item:before, .yxzd-topbar .topbar-nav ul:before, .yxzd-topbar .cities-nav ul:before, .yxzd-l .yxzd-l-wd .wd-good:before, .yxzd-l .yxzd-l-wd .wd-list:before, .yxzd-l .yxzd-l-wd .jz-item:before, .yxzd-l .yxzd-l-wdzd .wd-good:before, .yxzd-l .yxzd-l-wdzd .paging:before, .yxzd-l .msg-classify .msg-types .item:before, .yxzd-l .brochures .jz-item:before, .yxzd-l .brochures .jz-item .course .course-row:before, .yxzd-l .others-schools:before, .yxzd-l .others-schools .others-l .others-l-item:before, .yxzd-r .hot-search ul:before, .academy .academy-types .studying-types:before, .academy .academy-tab .tab-head:before, .academy .academy-tab .tab-item:before, .title-module:after, .tx-module2 .injobMaster .master-right .master-top .academy-box ul:after, .yjs-recommend .recommend .tab-item ul:after, .yjs-link .tab-item:after, .yxzd-topbar .topbar-nav ul:after, .yxzd-topbar .cities-nav ul:after, .yxzd-l .yxzd-l-wd .wd-good:after, .yxzd-l .yxzd-l-wd .wd-list:after, .yxzd-l .yxzd-l-wd .jz-item:after, .yxzd-l .yxzd-l-wdzd .wd-good:after, .yxzd-l .yxzd-l-wdzd .paging:after, .yxzd-l .msg-classify .msg-types .item:after, .yxzd-l .brochures .jz-item:after, .yxzd-l .brochures .jz-item .course .course-row:after, .yxzd-l .others-schools:after, .yxzd-l .others-schools .others-l .others-l-item:after, .yxzd-r .hot-search ul:after, .academy .academy-types .studying-types:after, .academy .academy-tab .tab-head:after, .academy .academy-tab .tab-item:after {
   content: "";
   display: table;
 }
@@ -303,24 +303,25 @@ body {
   height: 50px;
   background-color: #ffffff;
   margin-bottom: 20px;
-}
-
-.yjs-types .content {
   padding-top: 18px;
 }
 
-.yjs-types .content .type-item {
+.yjs-types .type-left {
+  float: left;
+}
+
+.yjs-types .type-left a {
   line-height: 15px;
   padding-right: 25px;
   border-right: 1px solid #dddddd;
   margin-right: 25px;
 }
 
-.yjs-types .content .type-item.cur {
+.yjs-types .type-left a.active {
   color: #1782e6;
 }
 
-.yjs-types .content .type-item:before {
+.yjs-types .type-left a:before {
   vertical-align: middle;
   content: "";
   width: 19px;
@@ -329,17 +330,25 @@ body {
   margin-right: 10px;
 }
 
-.yjs-types .content .type-item:nth-of-type(2):before {
+.yjs-types .type-left a:nth-of-type(2):before {
   width: 16px;
   height: 16px;
   background: url("../images/css_sprites.png") -83px -295px;
 }
 
-.yjs-types .content .type-detail {
+.yjs-types .type-detail ul {
   display: none;
 }
 
-.yjs-types .content .type-detail .detail-title:before {
+.yjs-types .type-detail ul.active {
+  display: inline-block;
+}
+
+.yjs-types .type-detail ul .detail-title {
+  float: left;
+}
+
+.yjs-types .type-detail ul .detail-title:before {
   vertical-align: middle;
   content: "";
   width: 17px;
@@ -348,8 +357,45 @@ body {
   margin-right: 10px;
 }
 
-.yjs-types .content .type-detail ul li a {
+.yjs-types .type-detail ul li {
+  float: left;
+}
+
+.yjs-types .type-detail ul li a {
   padding: 0 10px;
+}
+
+.yjs-types .type-detail ul .more-types {
+  position: relative;
+}
+
+.yjs-types .type-detail ul .more-types .provinces {
+  display: none;
+  width: 300px;
+  position: absolute;
+  right: 0;
+  top: 44px;
+  background-color: #ffffff;
+  padding: 10px 0 10px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+          box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+}
+
+.yjs-types .type-detail ul .more-types .provinces a {
+  float: left;
+}
+
+.yjs-types .type-detail ul .more-types .provinces:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ffffff;
+  position: absolute;
+  top: -10px;
+  right: 24px;
 }
 
 /* 标题模板 */
@@ -512,6 +558,8 @@ body {
 
 .tx-module1 .tx-recruitBox .recruitCon ul li:hover {
   border: 1px solid #eeeeee;
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+          box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
 }
 
 .tx-module1 .tx-recruitBox .recruitCon ul li:hover p {
@@ -520,6 +568,8 @@ body {
 
 .tx-module1 .tx-recruitBox .recruitCon ul li:nth-child(n+11):hover {
   border: 1px solid transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 /* 2.全国首页-在职硕士 */
@@ -588,6 +638,8 @@ body {
 
 .txPulicList1 ul li:hover {
   border: 1px solid #eeeeee;
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+          box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
 }
 
 .txPulicList1 ul li:hover p {
@@ -2204,7 +2256,6 @@ body {
 .yjs-recommend .recommend .tab-item ul li {
   float: left;
   background-color: #ffffff;
-  border: solid 1px #eeeeee;
   margin-left: 20px;
   margin-top: 20px;
   position: relative;
@@ -2212,12 +2263,28 @@ body {
 
 .yjs-recommend .recommend .tab-item ul li a {
   width: 196px;
-  height: 80px;
-  padding: 10px 12px;
+  height: 120px;
+  padding: 17px 16px 14px;
+  border: solid 1px #eeeeee;
+}
+
+.yjs-recommend .recommend .tab-item ul li a:hover {
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+          box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+}
+
+.yjs-recommend .recommend .tab-item ul li img {
+  margin-bottom: 15px;
+}
+
+.yjs-recommend .recommend .tab-item ul li .text {
+  text-align: center;
+  border-top: 1px solid #eeeeee;
+  padding-top: 10px;
 }
 
 .yjs-recommend .recommend .tab-item ul li .text .name {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 30px;
   font-weight: bold;
   color: #333333;
@@ -2225,6 +2292,7 @@ body {
 
 .yjs-recommend .recommend .tab-item ul li .text p {
   font-size: 14px;
+  line-height: 14px;
   color: #666666;
 }
 
@@ -2317,13 +2385,10 @@ body {
   background-color: #ffffff;
   -webkit-box-shadow: 0px 1px 0px 0px #dddddd;
           box-shadow: 0px 1px 0px 0px #dddddd;
-}
-
-.yxzd-topbar .content {
   padding-top: 16px;
 }
 
-.yxzd-topbar .content h1 {
+.yxzd-topbar h1 {
   font-size: 18px;
   line-height: 18px;
   color: #333333;
@@ -2332,21 +2397,22 @@ body {
   float: left;
 }
 
-.yxzd-topbar .content .topbar-nav {
+.yxzd-topbar .topbar-nav {
   position: relative;
   float: left;
 }
 
-.yxzd-topbar .content .topbar-nav ul li {
+.yxzd-topbar .topbar-nav ul li {
   float: left;
+  height: 20px;
 }
 
-.yxzd-topbar .content .topbar-nav ul li a {
+.yxzd-topbar .topbar-nav ul li a {
   color: #555555;
   padding: 0 8px;
 }
 
-.yxzd-topbar .content .topbar-nav ul li a i {
+.yxzd-topbar .topbar-nav ul li a i {
   width: 10px;
   height: 7px;
   vertical-align: middle;
@@ -2354,36 +2420,45 @@ body {
   margin-left: 9px;
 }
 
-.yxzd-topbar .content .topbar-nav ul li a:hover {
+.yxzd-topbar .topbar-nav ul li a:hover {
   color: #1782e6;
 }
 
-.yxzd-topbar .content .topbar-nav ul li .submenu {
-  position: absolute;
-  top: 24px;
+.yxzd-topbar .topbar-nav ul li .submenu {
+  background-color: #ffffff;
+  padding: 6px 0;
   display: none;
 }
 
-.yxzd-topbar .content .topbar-nav ul li .submenu li {
+.yxzd-topbar .topbar-nav ul li .submenu li {
   float: none;
+  text-align: center;
 }
 
-.yxzd-topbar .content .cities-nav {
+.yxzd-topbar .topbar-nav ul li .submenu li a {
+  line-height: 24px;
+}
+
+.yxzd-topbar .topbar-nav ul li:hover .submenu {
+  display: block;
+}
+
+.yxzd-topbar .cities-nav {
   position: relative;
   float: right;
 }
 
-.yxzd-topbar .content .cities-nav ul li {
+.yxzd-topbar .cities-nav ul li {
   float: left;
   color: #dddddd;
 }
 
-.yxzd-topbar .content .cities-nav ul li a {
+.yxzd-topbar .cities-nav ul li a {
   color: #555555;
   padding: 0 8px;
 }
 
-.yxzd-topbar .content .cities-nav ul li a i {
+.yxzd-topbar .cities-nav ul li a i {
   width: 10px;
   height: 7px;
   vertical-align: middle;
@@ -2391,18 +2466,51 @@ body {
   margin-left: 9px;
 }
 
-.yxzd-topbar .content .cities-nav ul li a:hover {
+.yxzd-topbar .cities-nav ul li a:hover {
   color: #1782e6;
 }
 
-.yxzd-topbar .content .cities-nav ul li .submenu {
+.yxzd-topbar .cities-nav ul li .submenu {
   position: absolute;
   top: 24px;
   display: none;
 }
 
-.yxzd-topbar .content .cities-nav ul li .submenu li {
+.yxzd-topbar .cities-nav ul li .submenu li {
   float: none;
+}
+
+.yxzd-topbar .cities-nav ul .more-types {
+  position: relative;
+}
+
+.yxzd-topbar .cities-nav ul .more-types .provinces {
+  display: none;
+  width: 300px;
+  position: absolute;
+  right: 0;
+  top: 44px;
+  background-color: #ffffff;
+  padding: 10px 0 10px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+          box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+}
+
+.yxzd-topbar .cities-nav ul .more-types .provinces a {
+  float: left;
+}
+
+.yxzd-topbar .cities-nav ul .more-types .provinces:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ffffff;
+  position: absolute;
+  top: -10px;
+  right: 24px;
 }
 
 .yxzd-banner {
@@ -2877,6 +2985,19 @@ body {
   color: #ffffff;
 }
 
+.yxzd-l .msg-classify .msg-types .item .types-r .more a {
+  color: #444444;
+}
+
+.yxzd-l .msg-classify .msg-types .item .types-r .more a.active {
+  background-color: transparent;
+  color: #444444;
+}
+
+.yxzd-l .msg-classify .msg-types .item .types-r .more a:hover {
+  color: #1782e6;
+}
+
 .yxzd-l .msg-classify .msg-types .item .types-r span {
   height: 34px;
   line-height: 32px;
@@ -3283,6 +3404,15 @@ body {
   max-width: 970px;
 }
 
+.academy .academy-types .studying-types .types-r .more a.active {
+  background-color: transparent;
+  color: #444444;
+}
+
+.academy .academy-types .studying-types .types-r .more a:hover {
+  color: #1782e6;
+}
+
 .academy .academy-types .studying-types .types-r a {
   height: 24px;
   line-height: 24px;
@@ -3290,6 +3420,7 @@ body {
   padding: 0 6px;
   margin-right: 20px;
   margin-bottom: 10px;
+  color: #444444;
 }
 
 .academy .academy-types .studying-types .types-r a.active {
@@ -3318,15 +3449,15 @@ body {
 }
 
 .academy .academy-tab .school-logo {
-  width: 120px;
+  width: 200px;
 }
 
 .academy .academy-tab .school-name {
-  width: 120px;
+  width: 170px;
 }
 
 .academy .academy-tab .school-speciality {
-  width: 200px;
+  width: 150px;
 }
 
 .academy .academy-tab .school-speciality span {
@@ -3356,11 +3487,11 @@ body {
 }
 
 .academy .academy-tab .school-major {
-  width: 300px;
+  width: 280px;
 }
 
 .academy .academy-tab .school-operation {
-  width: 360px;
+  width: 300px;
 }
 
 .academy .academy-tab .school-operation a {
@@ -3368,7 +3499,7 @@ body {
   color: #1782e6;
   padding: 0 5px;
   line-height: 26px;
-  margin: 0 10px;
+  margin: 0 8px;
   border-radius: 2px;
 }
 
@@ -3391,7 +3522,7 @@ body {
 
 .academy .academy-tab .tab-item {
   padding: 20px 0;
-  margin: 0 20px;
+  margin-left: 20px;
   border-bottom: 1px solid #eeeeee;
 }
 
@@ -3404,19 +3535,23 @@ body {
 }
 
 .academy .academy-tab .tab-item .school-logo {
-  width: 82px;
+  width: 164px;
+}
+
+.academy .academy-tab .tab-item .school-logo img {
+  vertical-align: middle;
 }
 
 .academy .academy-tab .tab-item .school-name {
-  width: 160px;
+  width: 200px;
 }
 
 .academy .academy-tab .tab-item .school-speciality {
-  width: 160px;
+  width: 120px;
 }
 
 .academy .academy-tab .tab-item .school-major {
-  width: 340px;
+  width: 310px;
 }
 
 .academy .academy-tab .tab-item .school-major span {
@@ -3432,7 +3567,7 @@ body {
 }
 
 .academy .academy-tab .tab-item .school-operation {
-  width: 318px;
+  width: 280px;
 }
 
 /* 院校-问答 */
@@ -3483,6 +3618,8 @@ body {
 
 .yx-wd ul li:hover {
   border: 1px solid #eeeeee;
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
+          box-shadow: 0px 10px 15px 0px rgba(104, 111, 122, 0.15);
 }
 
 .yx-wd ul li:hover p {
